@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10.0dip" >
+
+    <ImageView
+        android:id="@+id/user_iv_figure"
+        android:layout_width="45.0dip"
+        android:layout_height="45.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:src="@drawable/nofigure"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/message_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/status_loading"
+        android:textSize="12sp"
+        android:textColor="@color/shadow_medium" />
+
+    <TextView
+        android:id="@+id/message_tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/user_iv_figure"
+        android:text="@string/status_loading"
+        android:textSize="16.0sp"/>
+
+    <TextView
+        android:id="@+id/message_tv_review"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/user_iv_figure"
+        android:layout_alignLeft="@id/message_tv_username"
+        android:singleLine="true"
+        android:text="@string/status_loading"
+        android:textColor="@color/shadow_medium" />
+
+</RelativeLayout>

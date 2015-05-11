@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/main_action_edit"
+        android:visible="false"
+        android:icon="@drawable/selector_edit"
+        android:onClick="edit"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_edit"/>
+    <item
+        android:id="@+id/main_action_save"
+        android:visible="false"
+        android:icon="@drawable/selector_save"
+        android:onClick="save"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="@string/action_save"/>
+    <item
+        android:id="@+id/main_action_map"
+        android:visible="false"
+        android:icon="@drawable/selector_location"
+        android:onClick="map"
+        android:orderInCategory="300"
+        android:showAsAction="always"
+        android:title="@string/action_map"/>
+
+</menu>

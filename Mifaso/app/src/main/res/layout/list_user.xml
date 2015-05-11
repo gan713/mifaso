@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="8dip">
+
+    <com.mifashow.ui.ResizedImageView
+        android:id="@+id/user_iv_figure"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:src="@drawable/nofigure" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10.0dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/user_tv_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_loading"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/user_tv_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rectangle_radius_pink"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:text="@string/status_loading"
+                android:textColor="@color/lightest" />
+
+            <TextView
+                android:id="@+id/user_tv_distance"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="@string/status_loading"
+                android:textSize="12sp"
+                android:textColor="@color/shadow_medium"  />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/user_tv_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/emphasize_medium" 
+            android:textSize="13sp"
+            android:text="@string/status_loading" />
+
+        <TextView
+            android:id="@+id/user_tv_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/status_loading"
+            android:textColor="@color/shadow_medium" />
+
+    </LinearLayout>
+
+</LinearLayout>

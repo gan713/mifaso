@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:context="http://www.springframework.org/schema/context" 
+	xmlns:security="http://www.springframework.org/schema/security" xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd 
+		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.1.xsd">
+    <context:component-scan base-package="com.mifashow.server" />
+	<mvc:annotation-driven />
+	<mvc:default-servlet-handler />
+	<!-- 
+	<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />
+	 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- Example: a logical view name of 'showMessage' is mapped to '/WEB-INF/jsp/showMessage.jsp' -->
+		<property name="prefix" value="/WEB-INF/view/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	<!-- 
+	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<bean
+					class="org.springframework.http.converter.StringHttpMessageConverter">
+					<property name="supportedMediaTypes">
+						<list>
+							<value>text/plain;charset=UTF-8</value>
+							<value>application/json;charset=UTF-8</value>
+						</list>
+					</property>
+				</bean>
+				<bean class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter" />
+			</list>
+		</property>
+	</bean>
+	-->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="5000000" />
+	</bean>
+	<context:property-placeholder location="classpath:jdbc/sae_jdbc.properties"/><!-- 远程时sae,本地时local -->
+    <bean id="w_dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.w_url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="maxActive" value="${jdbc.maxActive}"/>
+        <property name="testOnBorrow" value="${jdbc.testOnBorrow}"/>
+        <property name="validationQuery" value="${jdbc.validationQuery}"/>
+    </bean>
+    <bean id="r_dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.r_url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="maxActive" value="${jdbc.maxActive}"/>
+        <property name="testOnBorrow" value="${jdbc.testOnBorrow}"/>
+        <property name="validationQuery" value="${jdbc.validationQuery}"/>
+    </bean>
+    <security:http use-expressions="true">
+        <security:intercept-url pattern="/" method="GET" access="permitAll" />
+        <security:intercept-url pattern="/posting" method="GET" access="permitAll" />
+        <security:intercept-url pattern="/posting/**/*" method="GET" access="permitAll" />
+        <security:intercept-url pattern="/salon/**" method="GET" access="permitAll" />
+        <security:intercept-url pattern="/user" method="POST" access="permitAll" />
+        <security:intercept-url pattern="/user/**/*" method="GET" access="permitAll" />
+        <security:intercept-url pattern="/password/*" method="GET" access="permitAll" />
+        <security:intercept-url pattern="/client/*" method="GET" access="permitAll" />
+        <security:intercept-url pattern="/downloads/**/*" method="GET" access="permitAll" />
+         <security:intercept-url pattern="/static/**/*" method="GET" access="permitAll" />
+         <security:intercept-url pattern="/image/**/*" method="GET" access="permitAll" />
+         <security:intercept-url pattern="/storageList" method="GET" access="permitAll" />
+         <security:intercept-url pattern="/fixStorage" method="GET" access="permitAll" />
+         <security:intercept-url pattern="/*.txt" method="GET" access="permitAll" />
+		<security:intercept-url pattern="/**/*" access="isAuthenticated()" />
+		<security:http-basic />
+	</security:http>
+	<security:authentication-manager>
+		<security:authentication-provider>
+			<security:jdbc-user-service
+				authorities-by-username-query="SELECT u.sign,case when a.role is null then 'ROLE_USER' ELSE a.role end FROM user u left join authority a on u.userId=a.userId where u.sign=?"
+				users-by-username-query=" select sign,password,1 from user where lower(sign)=lower(?)"
+				data-source-ref="r_dataSource" />
+			
+		</security:authentication-provider>
+	</security:authentication-manager>
+	<task:annotation-driven />
+</beans>

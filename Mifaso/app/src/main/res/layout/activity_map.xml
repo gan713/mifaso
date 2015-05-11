@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/map_mv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+    
+
+        <Button
+            android:id="@+id/map_bt_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/selector_5"
+            android:drawableLeft="@drawable/selector_user"
+            android:paddingLeft="5dp"
+            android:drawablePadding="5dp"
+            android:textSize="40sp"
+            android:textColor="@color/darkest"
+            android:onClick="showNearUsers" />
+        <Button
+            android:id="@+id/map_bt_salon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/map_bt_user"
+            android:background="@drawable/selector_5"
+            android:drawableLeft="@drawable/selector_salon"
+            android:paddingLeft="5dp"
+            android:drawablePadding="5dp"
+            android:textSize="40sp"
+            android:textColor="@color/darkest"
+            android:onClick="showNearSalons" />
+        
+        <ImageButton
+            android:id="@+id/map_iv_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/map_bt_user"
+            android:layout_alignBottom="@id/map_bt_user"
+            android:background="@drawable/selector_5"
+            android:src="@drawable/selector_target"
+            android:contentDescription="@null"
+            android:onClick="target" />
+
+</RelativeLayout>

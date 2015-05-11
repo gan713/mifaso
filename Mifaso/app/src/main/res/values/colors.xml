@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shadow_light">#e9e7ef</color>
+    <color name="shadow_medium">#a19d94</color>
+    <color name="shadow_dark">#4F4F4F</color>
+    <color name="emphasize_dark">#d22729</color>
+    <color name="emphasize_medium">#e53223</color>
+    <color name="emphasize_light">#fcf2f2</color>
+    <color name="emphasize_transparent">#88e53223</color>
+    <color name="main_dark">#3d2406</color>
+    <color name="main_medium">#8d7750</color>
+    <color name="main_light">#faf6ef</color>
+    <color name="darkest">#000000</color>
+    <color name="darkest_transparent">#88000000</color>
+    <color name="lightest">#FFFFFF</color>
+    <color name="lightest_transparent">#88FFFFFF</color>
+    <color name="background">#FFFCF8</color>
+    <color name="cold">#66AFEC</color>
+    <color name="hot">#FF6C00</color>
+</resources>

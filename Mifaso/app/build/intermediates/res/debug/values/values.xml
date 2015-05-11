@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="action_arbitrateHandle">
+        <item>Post the evaluation&amp;Explanation</item>
+        <item>Cancel The Reservation</item>
+    </string-array>
+    <string-array name="action_followingHandle">
+        <item>Chat</item>
+        <item>Unfollow</item>
+    </string-array>
+    <string-array name="action_list">
+        <item>New Hairs</item>
+        <item>100km</item>
+        <item>10km</item>
+        <item>Following</item>
+        <item>Suitable</item>
+    </string-array>
+    <string-array name="action_list_visitor">
+        <item>New Hairs</item>
+        <item>100km</item>
+        <item>10km</item>
+    </string-array>
+    <string-array name="action_messageBoxHandle">
+        <item>Remove Seleted</item>
+        <item>Remove Handled</item>
+        <item>Remove All</item>
+    </string-array>
+    <string-array name="action_posterCreaterHandle">
+        <item>Similar hairstyles</item>
+        <item>Share</item>
+        <item>Set Business Hours</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="action_postingHandle">
+        <item>Similar hairstyles</item>
+        <item>Share</item>
+        <item>Report</item>
+    </string-array>
+    <string-array name="action_reportHandle">
+        <item>Delete</item>
+        <item>Pass</item>
+    </string-array>
+    <string-array name="action_salonImageHandle">
+        <item>To Left</item>
+        <item>To Right</item>
+        <item>To Start</item>
+        <item>To End</item>
+        <item>Remove</item>
+    </string-array>
+    <string-array name="action_salonStylistHandle">
+        <item>Remove</item>
+        <item>Transfer Manage Right</item>
+    </string-array>
+    <string-array name="action_showCreaterHandle">
+        <item>Similar hairstyles</item>
+        <item>Share</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="action_takeOrRotateOrClearPhoto">
+        <item>Take Photo</item>
+        <item>Choose From Library</item>
+        <item>Rotate Current Photo</item>
+        <item>Remove Current Photo</item>
+    </string-array>
+    <string-array name="action_takeOrRotatePhoto">
+        <item>Take Photo</item>
+        <item>Choose From Library</item>
+        <item>Rotate Current Photo</item>
+    </string-array>
+    <string-array name="action_takePhoto">
+        <item>Take Photo</item>
+        <item>Choose From Library</item>
+    </string-array>
+    <string-array name="action_userProfile">
+        <item>Log Out</item>
+        <item>Edit Profile</item>
+        <item>Change Password</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="booking_status">
+        <item>Committing</item>
+        <item>Commenting</item>
+        <item>Explaining</item>
+        <item>Arbitrating</item>
+        <item>Terminate</item>
+        <item>Canceled</item>
+        <item>Expired</item>
+    </string-array>
+    <string-array name="booking_timeGroup">
+        <item>Today</item>
+        <item>Tomorrow</item>
+        <item>This Week</item>
+        <item>History</item>
+    </string-array>
+    <string-array name="enum_age">
+        <item>~5</item>
+        <item>6~15</item>
+        <item>16~21</item>
+        <item>22~25</item>
+        <item>26~30</item>
+        <item>31~35</item>
+        <item>36~</item>
+    </string-array>
+    <string-array name="enum_bangType">
+        <item>Middle Parting</item>
+        <item>Long-Side Parting</item>
+        <item>Short-Side Parting</item>
+        <item>Straight Bang</item>
+    </string-array>
+    <string-array name="enum_curlyType">
+        <item>Straight</item>
+        <item>Curly</item>
+    </string-array>
+    <string-array name="enum_discount">
+        <item>Closed</item>
+        <item>0%off</item>
+        <item>10%off</item>
+        <item>20%off</item>
+        <item>30%off</item>
+        <item>40%off</item>
+        <item>50%off</item>
+        <item>60%off</item>
+        <item>70%off</item>
+        <item>80%off</item>
+        <item>90%off</item>
+    </string-array>
+    <string-array name="enum_faceShape">
+        <item>Oblong Face</item>
+        <item>Heart Face</item>
+        <item>Diamond Face</item>
+        <item>Triangle Face</item>
+        <item>Rectangle Face</item>
+        <item>Round Face</item>
+        <item>Square Face</item>
+    </string-array>
+    <string-array name="enum_hairLength">
+        <item>Long Hair</item>
+        <item>Shoulder-Length Hair</item>
+        <item>Short Hair</item>
+    </string-array>
+    <string-array name="enum_level">
+        <item>Add Bio or address</item>
+        <item>Mark a hairstyle</item>
+        <item>Follow a user</item>
+        <item>Submit a hairstyle</item>
+        <item>Get marked</item>
+        <item>Get followed</item>
+    </string-array>
+    <string-array name="enum_reportType">
+        <item>Photos do not conform with one hair style.</item>
+        <item>Photos do not conform with the description.</item>
+        <item>Address is not real.</item>
+        <item>Other reasons.</item>
+    </string-array>
+    <string-array name="enum_services">
+        <item>Trim</item>
+        <item>Perm</item>
+        <item>Dye</item>
+        <item>Weave</item>
+        <item>Treatment</item>
+    </string-array>
+    <string-array name="enum_sex">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    <string-array name="enum_stylistLevel">
+        <item>Edit Bio</item>
+        <item>Mark a hairstyle</item>
+        <item>Follow a user</item>
+        <item>Submit a hairstyle</item>
+        <item>To be marked</item>
+        <item>To be follow</item>
+    </string-array>
+    <string-array name="enum_userSourceType">
+        <item>Following</item>
+        <item>Follower</item>
+    </string-array>
+    <string-array name="enum_userType">
+        <item>Customer</item>
+        <item>Stylist</item>
+    </string-array>
+    <string-array name="enum_weekday">
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THR</item>
+        <item>FRI</item>
+        <item>SAT</item>
+    </string-array>
+    <string-array name="main_tapText">
+        <item>Hair</item>
+        <item>Salon</item>
+        <item>User</item>
+        <item>Me</item>
+        <item>Chat</item>
+    </string-array>
+    <!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background">#FFFCF8</color>
+    <color name="cold">#66AFEC</color>
+    <color name="darkest">#000000</color>
+    <color name="darkest_transparent">#88000000</color>
+    <color name="emphasize_dark">#d22729</color>
+    <color name="emphasize_light">#fcf2f2</color>
+    <color name="emphasize_medium">#e53223</color>
+    <color name="emphasize_transparent">#88e53223</color>
+    <color name="hot">#FF6C00</color>
+    <color name="lightest">#FFFFFF</color>
+    <color name="lightest_transparent">#88FFFFFF</color>
+    <color name="main_dark">#3d2406</color>
+    <color name="main_light">#faf6ef</color>
+    <color name="main_medium">#8d7750</color>
+    <color name="shadow_dark">#4F4F4F</color>
+    <color name="shadow_light">#e9e7ef</color>
+    <color name="shadow_medium">#a19d94</color>
+    <declare-styleable name="ResizedLinearLayout"><attr format="float" name="ratio"/></declare-styleable>
+    <declare-styleable name="RoundAngleImageView"><attr format="dimension" name="roundWidth"/><attr format="dimension" name="roundHeight"/></declare-styleable>
+    <declare-styleable name="WrappedButtonGroup"><attr format="dimension" name="layout_width"/><attr format="dimension" name="layout_height"/><attr format="dimension" name="layout_margin"/><attr format="reference" name="texts"/><attr format="boolean" name="single"/></declare-styleable>
+    <declare-styleable name="WrappedViewGroup"><attr format="dimension" name="wvg_width"/><attr format="dimension" name="wvg_height"/><attr format="dimension" name="wvg_margin"/></declare-styleable>
+    <!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">0.0dip</dimen>
+    <dimen name="activity_vertical_margin">0.0dip</dimen>
+    <dimen name="welcome_logo_textSize">40.0dip</dimen>
+    <!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_at">Back</string>
+    <string name="action_add">New</string>
+    <string name="action_arbitrate">Malicious Evaluation</string>
+    <string name="action_book">Book</string>
+    <string name="action_bookings">Book</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clearHandledChat">Remove the handleds</string>
+    <string name="action_clearUpChat">Remove All</string>
+    <string name="action_comment">Evaluate</string>
+    <string name="action_commit">Accept</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_explain">Explain</string>
+    <string name="action_handle">Handle</string>
+    <string name="action_map">Map</string>
+    <string name="action_no">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_reComment">Evaluate</string>
+    <string name="action_rebuildChat">Rebuild Messages</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_save">Save</string>
+    <string name="action_search">Search</string>
+    <string name="action_send">Submit</string>
+    <string name="action_share">Share</string>
+    <string name="action_yes">OK</string>
+    <string name="app_name">The Hair</string>
+    <string name="book_tv_discount_text">%1$d off</string>
+    <string name="book_tv_footer1">Time</string>
+    <string name="book_tv_footer2">List-Price</string>
+    <string name="book_tv_footer3">Discount</string>
+    <string name="book_tv_footer4">Price</string>
+    <string name="book_tv_footer5">Book</string>
+    <string name="booking_tv_agreedPrice_text">$%1$d</string>
+    <string name="bookingset_at_label">Confirm&amp;Start taking Reservations.</string>
+    <string name="bookingset_err_listPrice">Price Required</string>
+    <string name="bookingset_tv_listPrice">List Price:$%1$d</string>
+    <string name="bookingset_tv_listPrice_input">List Price</string>
+    <string name="bookingset_tv_time">Business Hours:</string>
+    <string name="chat_input">Say to %1$s:</string>
+    <string name="chat_invite_salonConflict">Please exit the salon:%1$s</string>
+    <string name="chat_join_notAcceptable">The stylist has joined a salon!</string>
+    <string name="chat_join_unauthorized">You are not the manager of the salon!</string>
+    <string name="chat_tv_arbitrate">%1$s appeal:</string>
+    <string name="chat_tv_book_committed">"Time:%1$s\nPrice:$%2$s\n(%4$s of $%3$s)\nActived"</string>
+    <string name="chat_tv_book_committing">"Time:%1$s\nPrice:$%2$s\n(%4$s of $%3$s)\nAccept?"</string>
+    <string name="chat_tv_cancel">%1$s canceled the reservation。</string>
+    <string name="chat_tv_comment">%1$s evaluate your service.You could explain for it in 15 days at the reservation center.</string>
+    <string name="chat_tv_commit">%1$s has accepted your reservation.You could cancel it before the agreed Time at the reservation center.</string>
+    <string name="chat_tv_explain">%1$s explain for your evaluation.</string>
+    <string name="chat_tv_follow">%1$s follow to you。</string>
+    <string name="chat_tv_invite">Salon %1$s invites you to join.Do you agree?</string>
+    <string name="chat_tv_join">Apply to join %1$s.Do you agree?</string>
+    <string name="chat_tv_report">%1$s report:%2$s</string>
+    <string name="comment_at_label">Confirm&amp;Submit</string>
+    <string name="comment_et_reply_text">Reply To%1$s:</string>
+    <string name="comment_input_title">Edit Comment</string>
+    <string name="comment_tv_content_hint">Edit Comment</string>
+    <string name="comment_tv_step1">Step 1:Show</string>
+    <string name="comment_tv_step2">Step 2:Comment</string>
+    <string name="comment_tv_step3">Step 3:Rate</string>
+    <string name="default_user_about">Run with limited permissions.</string>
+    <string name="default_user_name">Visitor</string>
+    <string name="dialog_book_message">That will commit a reservation.</string>
+    <string name="dialog_book_title">Commit Reservation</string>
+    <string name="dialog_cancelBooking_message">That will cancel the reservation!</string>
+    <string name="dialog_cancelBooking_title">Canceling Reservation</string>
+    <string name="dialog_clearHandledMessageBox_message">That will remove all handled message!</string>
+    <string name="dialog_clearHandledMessageBox_title">Remove handled</string>
+    <string name="dialog_clearHandledMessageBoxes_message">That will remove the handled message!</string>
+    <string name="dialog_clearHandledMessageBoxes_title">Remove Handled Messages</string>
+    <string name="dialog_clearMessageBox_message">That will remove the selected message!</string>
+    <string name="dialog_clearMessageBox_title">Remove Message</string>
+    <string name="dialog_clearMessageBoxes_message">That will remove all messages!</string>
+    <string name="dialog_clearMessageBoxes_title">Remove All Messages</string>
+    <string name="dialog_deletePosting_message">That will delete the hair style!</string>
+    <string name="dialog_deletePosting_title">Delete Post</string>
+    <string name="dialog_dismarkPosting_message">That will Unmark the hair style!</string>
+    <string name="dialog_dismarkPosting_title">Unmark</string>
+    <string name="dialog_rebuildMessageBox_message">That will rebulid the messages!</string>
+    <string name="dialog_rebuildMessageBox_title">Rebulid Messages</string>
+    <string name="dialog_searchSalon_hint">via salon name/address</string>
+    <string name="dialog_searchSalon_title">Search Salon</string>
+    <string name="dialog_searchUser_hint">via email/name/address</string>
+    <string name="dialog_searchUser_title">Search User</string>
+    <string name="dialog_update_message">Click to update The Hair v%1$s!</string>
+    <string name="dialog_update_negative">Cancel</string>
+    <string name="dialog_update_positive">Update</string>
+    <string name="dialog_update_title">Download Finish!</string>
+    <string name="download_link">Click this to get #The Hair# APP:http://a.app.qq.com/o/simple.jsp?pkgname=com.mifashow&amp;g_f=992943</string>
+    <string name="err_signInvalid">Email Required</string>
+    <string name="error_bookByStylist">Customer only</string>
+    <string name="error_bookYourself">Not to book yourself.</string>
+    <string name="error_followAlready">Followed</string>
+    <string name="error_getRouteError">The route computation failed!</string>
+    <string name="error_locationError">Unknown position!Please try again!</string>
+    <string name="error_markAlready">Marked</string>
+    <string name="error_markYourself">Not to mark yourself.</string>
+    <string name="error_noImageError">Submit your photograph.</string>
+    <string name="error_searchKeywordError">Keyword too short!</string>
+    <string name="error_serverError">Please try again later.</string>
+    <string name="error_signExistsError">Email Address already exists.</string>
+    <string name="explain_at_label">Confirm&amp;Submit</string>
+    <string name="explain_input_title">Explain</string>
+    <string name="explain_tv_explain_text">explain</string>
+    <string name="explain_tv_explanation_hint">Edit Explanation</string>
+    <string name="info_arbitrateDone">Submitted!Waitting For Arbitrate!</string>
+    <string name="info_bookDone">Submitted!Waitting For Confirm!</string>
+    <string name="info_changePasswordDone">Your password has been changed!</string>
+    <string name="info_commentDone">Submitted</string>
+    <string name="info_deleteDone">Delete!</string>
+    <string name="info_dismarkDone">Dismarked!</string>
+    <string name="info_explainDone">Done!</string>
+    <string name="info_findPasswordDone">Your password has been sent to %1$s!</string>
+    <string name="info_followDone">Followed!</string>
+    <string name="info_markDone">Marked!</string>
+    <string name="info_noBookingSet">No reservation!</string>
+    <string name="info_noChat">CHATTING</string>
+    <string name="info_noComment">No Evaluation!</string>
+    <string name="info_noMessage">No Message</string>
+    <string name="info_null">EMPTY</string>
+    <string name="info_postDone">Posted!</string>
+    <string name="info_reportDone">Reported!</string>
+    <string name="info_saveDone">Saved!</string>
+    <string name="info_sendDone">Send successful！</string>
+    <string name="info_textLengthLimit">Limit %1$d characters</string>
+    <string name="input_tv_clear">,%1$d remain.</string>
+    <string name="login_at">Back</string>
+    <string name="login_bt_findPassword_text">Forgot Password?</string>
+    <string name="login_bt_login_text">Log In</string>
+    <string name="login_err_length_password">Invalid Password</string>
+    <string name="login_err_length_sign">Invalid Email</string>
+    <string name="login_err_null_password">Password Required!</string>
+    <string name="login_err_null_sign">Email Required!</string>
+    <string name="login_err_wrong_password">Invalid Email/Password!</string>
+    <string name="login_et_hint_password">Password</string>
+    <string name="login_et_hint_sign">Email</string>
+    <string name="login_et_imeActionLabel_password">Log In</string>
+    <string name="login_pg_title">Log In</string>
+    <string name="main_input_title">Help</string>
+    <string name="message_title">Messages</string>
+    <string name="messagebox_tv_content_arbitrate">%1$s appealed。</string>
+    <string name="messagebox_tv_content_book">"Reservation Committing:%1$s\nPrice:$%2$s"</string>
+    <string name="messagebox_tv_content_cancel">%1$s canceled the reservation.</string>
+    <string name="messagebox_tv_content_comment">%1$s evaluate your service</string>
+    <string name="messagebox_tv_content_commit">%1$s accepted your reservation.</string>
+    <string name="messagebox_tv_content_explain">%1$s comfirm&amp;explain your evaluation。</string>
+    <string name="messagebox_tv_content_follow">%1$s follow you。</string>
+    <string name="messagebox_tv_content_invite">%1$s invites you to join.</string>
+    <string name="messagebox_tv_content_join">Apply to join %1$s.</string>
+    <string name="messagebox_tv_content_report">%1$s report:%2$s</string>
+    <string name="messagebox_tv_manager_message">Do you have any question or suggestion?</string>
+    <string name="messagebox_tv_manager_username">The Hair duty manager</string>
+    <string name="notification_title">New messages:(%1$d)</string>
+    <string name="password_at_label">Confirm&amp;Submit</string>
+    <string name="password_et_current_err">Wrong current password</string>
+    <string name="password_et_hint_current">Current password</string>
+    <string name="password_et_hint_new">New password</string>
+    <string name="password_et_new_err">New password required</string>
+    <string name="poster_at_label">Comfirm&amp;Post</string>
+    <string name="poster_tv_step1_text">Step 1:Upload pictures for the hair style.</string>
+    <string name="poster_tv_step2_text">Step 2:Choose including services.</string>
+    <string name="poster_tv_step3_text">Step 3:Choose hair length.</string>
+    <string name="poster_tv_step4_text">Step 4:Choose bang style.</string>
+    <string name="poster_tv_step5_text">Step 5:Choose curly or straight.</string>
+    <string name="poster_tv_step6_text">Step 6:Choose suitable gender.</string>
+    <string name="poster_tv_step7_text">Step 7:Choose suitable age ranges.</string>
+    <string name="poster_tv_step8_text">Step 8:Choose suitable faces.</string>
+    <string name="profileEditor_tv_faceShape">Face</string>
+    <string name="profileEditor_tv_hair">Hair</string>
+    <string name="profileEditor_tv_userName_text">User Name</string>
+    <string name="profileEditor_tv_userType_text">User Type</string>
+    <string name="profile_alert_phone_content">To dial %1$s?</string>
+    <string name="profile_alert_phone_title">Dial telephone</string>
+    <string name="profile_at_label">Edit Profile</string>
+    <string name="profile_bt_booking">"%1$d\nReservation"</string>
+    <string name="profile_bt_comment">"%1$d\nValuation"</string>
+    <string name="profile_bt_follow">Follow</string>
+    <string name="profile_bt_follower">"%1$d\nFollower"</string>
+    <string name="profile_bt_following">"%1$d\nFollowing"</string>
+    <string name="profile_bt_login">Login</string>
+    <string name="profile_bt_marking">"%1$d\nMarking"</string>
+    <string name="profile_bt_message">Chat</string>
+    <string name="profile_bt_post">New</string>
+    <string name="profile_bt_posting">"%1$d\nPost"</string>
+    <string name="profile_bt_salon">Salon</string>
+    <string name="profile_bt_set">Setting</string>
+    <string name="profile_bt_signup">SignUp</string>
+    <string name="profile_dl_figure_title">Change Profile Picture</string>
+    <string name="profile_dl_shop_title">Change Salon Picture</string>
+    <string name="profile_hint_address">Long click to edit your address.</string>
+    <string name="profile_tv_about_hint">Long click to edit.</string>
+    <string name="profile_tv_about_text">Bio</string>
+    <string name="profile_tv_address_input">Detailed Address(Local operation)</string>
+    <string name="profile_tv_levelTask_text">Lv.%1$d Task:%2$s</string>
+    <string name="profile_tv_level_text">Lv.%1$d</string>
+    <string name="profile_tv_rating">(%1$d stars)</string>
+    <string name="register_alert_back_content">To give up the registration?</string>
+    <string name="register_alert_back_title">Back</string>
+    <string name="register_at">Back</string>
+    <string name="register_bt_figure">Head</string>
+    <string name="register_bt_finish_text">Join!</string>
+    <string name="register_bt_sex_female_text">Female</string>
+    <string name="register_bt_sex_male_text">male</string>
+    <string name="register_bt_text_chosedFace">Your Face</string>
+    <string name="register_bt_text_circleface">Round</string>
+    <string name="register_bt_text_guoface">Rectangle</string>
+    <string name="register_bt_text_jiaface">Heart</string>
+    <string name="register_bt_text_shenface">Diamond</string>
+    <string name="register_bt_text_squareface">Square</string>
+    <string name="register_bt_text_standardface">Oblong</string>
+    <string name="register_bt_text_youface">Triangle</string>
+    <string name="register_err_invalid_birthday">Invalid birthday</string>
+    <string name="register_err_invalid_height">Invalid Height</string>
+    <string name="register_err_invalid_weight">Invalid Weight</string>
+    <string name="register_err_null_birthday">Birthday Required</string>
+    <string name="register_err_null_figure">Please set a profile picture.</string>
+    <string name="register_err_null_height">Height Required</string>
+    <string name="register_err_null_password">Password Required</string>
+    <string name="register_err_null_userName">UserName Required</string>
+    <string name="register_err_null_weight">Weight Required</string>
+    <string name="register_et_birthday_hint">92–1–1</string>
+    <string name="register_et_height_hint">165</string>
+    <string name="register_et_password_hint">Password</string>
+    <string name="register_et_sign_hint">Email</string>
+    <string name="register_et_userName_hint">User Name</string>
+    <string name="register_et_weight_hint">50</string>
+    <string name="register_pg_title">Join Us</string>
+    <string name="register_pt_faceshape">1.Your Face</string>
+    <string name="register_pt_figure">3.Profile</string>
+    <string name="register_pt_hair">2.Your hair</string>
+    <string name="register_pt_username">4.Finish</string>
+    <string name="register_to_exit">Press once again to quit.</string>
+    <string name="register_tv_bangType_text">Bangs</string>
+    <string name="register_tv_birthday_text">Birthday</string>
+    <string name="register_tv_curlyType_text">Curly</string>
+    <string name="register_tv_figure_text">Profile Picture</string>
+    <string name="register_tv_hairLength_text">Length</string>
+    <string name="register_tv_height_text">Height</string>
+    <string name="register_tv_height_unit_text">cm</string>
+    <string name="register_tv_sex_text">Gender</string>
+    <string name="register_tv_sign_text">Login ID</string>
+    <string name="register_tv_weight_text">Weight</string>
+    <string name="register_tv_weight_unit_text">kg</string>
+    <string name="salon_alert_back_content">To give up the editor?</string>
+    <string name="salon_alert_back_title">Back</string>
+    <string name="salon_alert_discharge_content">To handover management of the salon?</string>
+    <string name="salon_alert_discharge_title">Handover management</string>
+    <string name="salon_alert_dissolve_content">To dissolve the salon?</string>
+    <string name="salon_alert_dissolve_title">Dissolve!!</string>
+    <string name="salon_alert_withdraw_content">To withdraw the salon?</string>
+    <string name="salon_alert_withdraw_title">Withdraw</string>
+    <string name="salon_at">Back</string>
+    <string name="salon_bt_attach">Attach Photo</string>
+    <string name="salon_bt_invite_hint">Hairstylist\'s email:\'a@b.com\'</string>
+    <string name="salon_invite_notFound">Hairstylist not found:%1$s</string>
+    <string name="salon_invite_sent">Invitation has been sent.</string>
+    <string name="salon_join_sent">Application for membership has been sent.</string>
+    <string name="salon_to_exit">Press once again to quit.</string>
+    <string name="salon_tv_address">Address</string>
+    <string name="salon_tv_area">Area</string>
+    <string name="salon_tv_basic">Basic Information</string>
+    <string name="salon_tv_braid">Braid</string>
+    <string name="salon_tv_call">Call</string>
+    <string name="salon_tv_color">Color</string>
+    <string name="salon_tv_consumption">Consumption</string>
+    <string name="salon_tv_cut">Cut</string>
+    <string name="salon_tv_discount">Discount</string>
+    <string name="salon_tv_edit_hint">Edit</string>
+    <string name="salon_tv_environment">Environment</string>
+    <string name="salon_tv_invite">Invite</string>
+    <string name="salon_tv_join">Join</string>
+    <string name="salon_tv_name">Name</string>
+    <string name="salon_tv_permanent">Permanent</string>
+    <string name="salon_tv_recruitment">Recruitment</string>
+    <string name="salon_tv_stylist">Hair Stylists</string>
+    <string name="salon_tv_treatment">Treatment</string>
+    <string name="salon_tv_withdraw">Withdraw</string>
+    <string name="salons_tv_price">$%1$d</string>
+    <string name="salons_tv_price2"/>
+    <string name="salons_tv_stylists">%1$d stylists on line</string>
+    <string name="share_subject">Share</string>
+    <string name="share_text">#The Hair#%1$s,suits for:%2$s,Scan qrcode or click this to get The hair APP:http://a.app.qq.com/o/simple.jsp?pkgname=com.mifashow&amp;g_f=992943</string>
+    <string name="share_title">Share</string>
+    <string name="show_at_label">Confirm&amp;Post</string>
+    <string name="show_tv_hair">Your Hairstyle</string>
+    <string name="show_tv_notic_1">·Not less than one picture</string>
+    <string name="show_tv_notic_2">·Not more than one hairstyle</string>
+    <string name="status_address_null">Add the address</string>
+    <string name="status_end">End</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_location_null">Get current position.</string>
+    <string name="status_noLocation">Unknown position</string>
+    <string name="status_sending">Now sending…</string>
+    <string name="time_hour">%1$d hours ago</string>
+    <string name="time_min">%1$d minuts ago</string>
+    <string name="time_now">now</string>
+    <string name="time_yesterday">yesterday</string>
+    <string name="title_activity_main">The Hair</string>
+    <string name="view_bt_booking_text">Bookings</string>
+    <string name="view_bt_comment_text">Evaluations</string>
+    <string name="view_bt_favor_text">Markings</string>
+    <string name="view_bt_handle_text">Handle</string>
+    <string name="viewer_at_label">Views</string>
+    <string name="viewer_tv_ageType">Age Range:%1$s</string>
+    <string name="viewer_tv_faceShape">Faces:%1$s</string>
+    <string name="viewer_tv_hairType">Hair：%1$s</string>
+    <string name="viewer_tv_serviceType">Services:%1$s</string>
+    <string name="welcome_bt_login">Log In</string>
+    <string name="welcome_bt_register">Join Us</string>
+    <string name="welcome_to_text_exit">Press once again to exit.</string>
+    <string name="welcome_tv">The Hair!To Find The Hair Stylist!</string>
+    <!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColorHighlight">@color/darkest</item>
+        <item name="android:textColor">@color/shadow_dark</item>
+        <item name="android:textColorHint">@color/shadow_medium</item>
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="android:actionButtonStyle">@style/MyActionButtonStyle</item>
+    </style>
+    <style name="MyActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/lightest</item>
+        <item name="android:height">50dp</item>
+    </style>
+    <style name="MyActionButtonStyle" parent="@android:style/Widget.Holo.ActionButton">
+        <item name="android:background">@null</item>
+    </style>
+</resources>

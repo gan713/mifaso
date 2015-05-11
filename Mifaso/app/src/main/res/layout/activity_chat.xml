@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chat_lo_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_background"
+    android:divider="@null" >
+    <RelativeLayout
+    android:id="@+id/chat_lo_actionBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:padding="5dp"
+    android:background="@color/shadow_light"
+    android:visibility="gone">
+
+        <com.mifashow.ui.ResizedImageView
+            android:id="@+id/chat_iv_figure"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/nofigure" />
+
+        <com.mifashow.ui.ResizedImageView
+            android:id="@+id/chat_iv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/icon_send_64" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/chat_iv_figure"
+            android:layout_toLeftOf="@+id/chat_iv_send"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/chat_tv_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/status_loading" />
+
+            <TextView
+                android:id="@+id/chat_tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:textSize="12sp"
+                android:textColor="@color/shadow_medium"
+                android:text="@string/status_loading" />
+
+            <TextView
+                android:id="@+id/chat_tv_hair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/shadow_medium"
+                android:text="@string/status_loading" />
+            <TextView
+                android:id="@+id/chat_tv_face"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/shadow_medium"
+                android:text="@string/status_loading" />
+
+        </LinearLayout>
+
+</RelativeLayout>
+<com.mifashow.ui.BorderListView
+    android:id="@+id/chat_lv"
+    android:layout_above="@id/chat_lo_actionBar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stackFromBottom="true"
+    android:transcriptMode="alwaysScroll"
+    android:background="@drawable/shape_background"
+    android:divider="@null" />
+<LinearLayout
+    android:id="@+id/chat_lo_noChat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/shadow_light"
+    android:layout_centerInParent="true" >
+
+    <ImageView
+        android:id="@+id/chat_iv_noChat"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/icon_bow"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/chat_tv_noChat"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/info_noChat" />
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

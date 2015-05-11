@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10.0dip" >
+
+    <TextView
+        android:id="@+id/chat_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shape_rectangle_radius_emphasize"
+        android:padding="5.0dip"
+        android:text="@string/status_loading"
+        android:textColor="@color/lightest" />
+
+    <TextView
+        android:id="@+id/chat_tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/chat_tv_time"
+        android:background="@drawable/bg_chat_left"
+        android:gravity="left|center"
+        android:lineSpacingExtra="2.0dip"
+        android:paddingBottom="10.0dip"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="10.0dip"
+        android:paddingTop="10.0dip"
+        android:text="@string/status_loading" />
+
+</RelativeLayout><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/layout/list_chat_left.xml -->

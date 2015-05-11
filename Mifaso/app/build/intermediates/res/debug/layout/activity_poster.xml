@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/poster_sv"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_background" >
+
+    <LinearLayout
+        android:id="@+id/poster_lo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/poster_tv_step1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/poster_tv_step1_text" />
+
+        <com.mifashow.ui.WrappedViewGroup
+            android:id="@+id/poster_wv_upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/shape_panel"
+            android:padding="10.0dip" >
+
+            <com.mifashow.ui.ResizedImageButton
+                android:id="@+id/poster_iv_front"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/front"
+                android:onClick="uploadImg"
+                android:scaleType="fitCenter"
+                android:src="@drawable/selector_6" />
+
+            <com.mifashow.ui.ResizedImageButton
+                android:id="@+id/poster_iv_back"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/back"
+                android:onClick="uploadImg"
+                android:scaleType="fitCenter"
+                android:src="@drawable/selector_6" />
+
+            <com.mifashow.ui.ResizedImageButton
+                android:id="@+id/poster_iv_side"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/side"
+                android:onClick="uploadImg"
+                android:scaleType="fitCenter"
+                android:src="@drawable/selector_6" />
+
+            <com.mifashow.ui.ResizedImageButton
+                android:id="@+id/poster_iv_more"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/more"
+                android:onClick="uploadImg"
+                android:scaleType="fitCenter"
+                android:src="@drawable/selector_6" />
+        </com.mifashow.ui.WrappedViewGroup>
+
+        <TextView
+            android:id="@+id/poster_tv_step2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:text="@string/poster_tv_step2_text" />
+
+        <com.mifashow.ui.WrappedButtonGroup
+            android:id="@+id/poster_wv_services"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            app:layout_margin="6.0dip"
+            android:background="@drawable/shape_panel"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:single="false"
+            app:texts="@array/enum_services" />
+
+        <TextView
+            android:id="@+id/poster_tv_step3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:text="@string/poster_tv_step3_text" />
+
+        <com.mifashow.ui.WrappedButtonGroup
+            android:id="@+id/poster_wv_hairlength"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            app:layout_margin="6.0dip"
+            android:background="@drawable/shape_panel"
+            android:focusable="true"
+            app:texts="@array/enum_hairLength" />
+
+        <TextView
+            android:id="@+id/poster_tv_step4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:text="@string/poster_tv_step4_text" />
+
+        <com.mifashow.ui.WrappedButtonGroup
+            android:id="@+id/poster_wv_bantype"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            app:layout_margin="6.0dip"
+            android:background="@drawable/shape_panel"
+            android:focusable="true"
+            app:texts="@array/enum_bangType" />
+
+        <TextView
+            android:id="@+id/poster_tv_step5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:text="@string/poster_tv_step5_text" />
+
+        <com.mifashow.ui.WrappedButtonGroup
+            android:id="@+id/poster_wv_curlytype"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            app:layout_margin="6.0dip"
+            android:background="@drawable/shape_panel"
+            android:focusable="true"
+            app:texts="@array/enum_curlyType" />
+
+        <TextView
+            android:id="@+id/poster_tv_step6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:text="@string/poster_tv_step6_text" />
+
+        <com.mifashow.ui.WrappedButtonGroup
+            android:id="@+id/poster_wv_sex"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            app:layout_margin="6.0dip"
+            android:background="@drawable/shape_panel"
+            android:focusable="true"
+            app:texts="@array/enum_sex" />
+
+        <TextView
+            android:id="@+id/poster_tv_step7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:text="@string/poster_tv_step7_text" />
+
+        <com.mifashow.ui.WrappedButtonGroup
+            android:id="@+id/poster_wv_age"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            app:layout_margin="6.0dip"
+            android:background="@drawable/shape_panel"
+            android:focusable="true"
+            app:single="false"
+            app:texts="@array/enum_age" />
+
+        <TextView
+            android:id="@+id/poster_tv_step8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:text="@string/poster_tv_step8_text" />
+
+        <com.mifashow.ui.WrappedButtonGroup
+            android:id="@+id/poster_wv_faceshape"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            app:layout_margin="6.0dip"
+            android:background="@drawable/shape_panel"
+            android:focusable="true"
+            app:single="false"
+            app:texts="@array/enum_faceShape" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/layout/activity_poster.xml -->

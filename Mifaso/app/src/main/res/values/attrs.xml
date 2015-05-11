@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WrappedButtonGroup">
+       <attr name = "layout_width" format = "dimension" />
+       <attr name = "layout_height" format = "dimension" />
+       <attr name = "layout_margin" format ="dimension" />
+       <attr name="texts" format="reference" />
+       <attr name = "single" format="boolean" />
+    </declare-styleable> 
+    <declare-styleable name="WrappedViewGroup">
+       <attr name = "wvg_width" format = "dimension" />
+       <attr name = "wvg_height" format = "dimension" />
+       <attr name = "wvg_margin" format ="dimension" />
+    </declare-styleable>   
+    <declare-styleable name="ResizedLinearLayout">
+       <attr name="ratio" format="float" />
+    </declare-styleable> 
+    <declare-styleable name="RoundAngleImageView"> 
+       <attr name="roundWidth" format="dimension" /> 
+       <attr name="roundHeight" format="dimension" /> 
+    </declare-styleable> 
+</resources>

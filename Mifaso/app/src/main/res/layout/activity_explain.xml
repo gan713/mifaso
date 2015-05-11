@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10.0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <com.mifashow.ui.ResizedImageView
+                android:id="@+id/explain_iv_figure"
+                android:layout_width="64.0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nofigure" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/explain_tv_comment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10.0dip"
+                    android:singleLine="false"
+                    android:text="@string/status_loading" />
+
+                <com.mifashow.ui.RenderView
+                    android:id="@+id/explain_rv_comment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip" >
+
+            <TextView
+                android:id="@+id/explain_tv_explain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/explain_tv_explain_text"
+                android:textSize="22.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/explain_tv_explanation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:clickable="true"
+                android:hint="@string/explain_tv_explanation_hint"
+                android:onClick="input"
+                android:singleLine="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

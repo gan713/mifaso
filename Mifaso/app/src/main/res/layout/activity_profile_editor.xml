@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profileEditor_sv_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_background" >
+
+    <LinearLayout
+        android:id="@+id/profileEditor_lo_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10.0dip" >
+
+        <LinearLayout
+            android:id="@+id/profileEditor_lo_userNameAnduserType"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_panel"
+            android:divider="@color/shadow_medium"
+            android:orientation="vertical"
+            android:showDividers="middle" >
+
+            <LinearLayout
+                android:id="@+id/profileEditor_lo_userName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_userName_label"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/profileEditor_tv_userName_text" />
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_userName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingRight="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/status_loading" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profileEditor_lo_userType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_userType_label"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/profileEditor_tv_userType_text" />
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_userType"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingRight="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/status_loading" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/profileEditor_lo_more"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/shape_panel"
+            android:divider="@color/shadow_medium"
+            android:orientation="vertical"
+            android:showDividers="middle" >
+
+            <LinearLayout
+                android:id="@+id/profileEditor_lo_sex"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_sex_label"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/register_tv_sex_text" />
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_sex"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingRight="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/status_loading" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profileEditor_lo_birthday"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_birthday_label"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/register_tv_birthday_text" />
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_birthday"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingRight="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/status_loading" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profileEditor_lo_height"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_height_label"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/register_tv_height_text" />
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_height"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingRight="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/status_loading" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profileEditor_lo_weight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_weight_label"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/register_tv_weight_text" />
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_weight"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingRight="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/status_loading" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/profileEditor_lo_faceShapeAndHair"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/shape_panel"
+            android:divider="@color/shadow_medium"
+            android:orientation="vertical"
+            android:showDividers="middle" >
+
+            <LinearLayout
+                android:id="@+id/profileEditor_lo_faceShape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_faceShape_label"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/profileEditor_tv_faceShape" />
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_faceShape"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingRight="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/status_loading" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profileEditor_lo_hair"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_hair_label"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/profileEditor_tv_hair" />
+
+                <TextView
+                    android:id="@+id/profileEditor_tv_hair"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15.0dip"
+                    android:paddingLeft="20.0dip"
+                    android:paddingRight="20.0dip"
+                    android:paddingTop="15.0dip"
+                    android:text="@string/status_loading" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

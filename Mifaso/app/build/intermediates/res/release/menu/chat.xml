@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/chat_action_rebuild"
+        android:onClick="rebuild"
+        android:showAsAction="never"
+        android:title="@string/action_rebuildChat"/>
+    <item
+        android:id="@+id/chat_action_clearUp"
+        android:onClick="clearUp"
+        android:showAsAction="never"
+        android:title="@string/action_clearUpChat"/>
+    <item
+        android:id="@+id/chat_action_clearhandled"
+        android:onClick="clearHandled"
+        android:showAsAction="never"
+        android:title="@string/action_clearHandledChat"/>
+
+</menu><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/menu/chat.xml -->

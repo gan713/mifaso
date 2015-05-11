@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="20.0dip"
+    android:paddingTop="30.0dip"
+    android:background="@color/lightest" >
+
+    <TextView
+        android:id="@+id/register_tv_hairLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="20.0dip"
+        android:text="@string/register_tv_hairLength_text" />
+
+    <com.mifashow.ui.WrappedButtonGroup
+        android:id="@+id/register_wv_hairLenght"
+        android:layout_width="wrap_content"
+        app:layout_width="95.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/register_tv_hairLength"
+        app:texts="@array/enum_hairLength" />
+
+    <TextView
+        android:id="@+id/register_tv_bangType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/register_tv_hairLength"
+        android:layout_below="@id/register_wv_hairLenght"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="40.0dip"
+        android:text="@string/register_tv_bangType_text" />
+
+    <com.mifashow.ui.WrappedButtonGroup
+        android:id="@+id/register_wv_bangType"
+        android:layout_width="wrap_content"
+        app:layout_width="95.0dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_wv_hairLenght"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="25.0dip"
+        android:layout_toRightOf="@id/register_tv_bangType"
+        android:layout_alignLeft="@id/register_wv_hairLenght"
+        app:texts="@array/enum_bangType" />
+
+    <TextView
+        android:id="@+id/register_tv_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/register_tv_hairLength"
+        android:layout_below="@id/register_wv_bangType"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="40.0dip"
+        android:text="@string/register_tv_curlyType_text" />
+
+    <com.mifashow.ui.WrappedButtonGroup
+        android:id="@+id/register_wv_curlyType"
+        android:layout_width="wrap_content"
+        app:layout_width="95.0dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_wv_bangType"
+        android:layout_marginTop="25dip"
+        android:layout_toRightOf="@id/register_tv_height"
+        android:layout_alignLeft="@id/register_wv_bangType"
+        app:texts="@array/enum_curlyType" />
+
+</RelativeLayout>

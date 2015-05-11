@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_lo_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/profile_background" >
+
+            <ImageView
+                android:id="@+id/profile_iv_top"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/profile_background" />
+
+            <LinearLayout
+            android:id="@+id/profile_lo_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="5dp"
+                android:layout_weight="1.0" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" >
+
+                    <com.mifashow.ui.RoundAngleImageView
+                        android:id="@+id/profile_iv_figure"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="15dp"
+                        android:contentDescription="@null"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:src="@drawable/nofigure"
+                        app:roundHeight="10dp"
+                        app:roundWidth="10dp" />
+
+                    <LinearLayout
+                        android:id="@+id/profile_lo_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_alignTop="@+id/profile_iv_figure"
+                        android:layout_toRightOf="@+id/profile_iv_figure" >
+                        <TextView
+                    android:id="@+id/profile_tv_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:longClickable="true"
+                    android:shadowColor="#40000000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="1"
+                    android:text="@string/status_loading"
+                    android:textColor="@color/lightest"
+                    android:includeFontPadding="false"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/profile_tv_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/shape_rectangle_radius_pink"
+                    android:paddingLeft="2dip"
+                    android:paddingRight="2dip"
+                    android:text="@string/status_loading"
+                    android:textColor="@color/lightest"
+                    android:textSize="12sp" />
+                    </LinearLayout>
+
+                    
+
+                <LinearLayout
+                    android:id="@+id/profile_lo_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignLeft="@+id/profile_lo_username"
+                    android:layout_below="@+id/profile_lo_username" >
+
+                    <ImageView
+                        android:id="@+id/profile_iv_usertype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_scissors_16" />
+
+                <RatingBar
+                    android:id="@+id/profile_rb_rating"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="3.0" />
+
+                <TextView
+                    android:id="@+id/profile_tv_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:shadowColor="#40000000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="1"
+                    android:text="@string/status_loading"
+                    android:textColor="@color/lightest"
+                    android:textSize="12sp" />
+
+                </LinearLayout>
+
+                
+
+                <TextView
+                    android:id="@+id/profile_tv_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignLeft="@+id/profile_lo_rating"
+                    android:layout_below="@+id/profile_lo_rating"
+                    android:hint="@string/profile_tv_about_hint"
+                    android:shadowColor="#40000000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="1"
+                    android:text="@string/status_loading"
+                    android:textColor="@color/lightest" />
+
+                <TextView
+                    android:id="@+id/profile_tv_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignLeft="@+id/profile_tv_about"
+                    android:layout_below="@+id/profile_tv_about"
+                    android:shadowColor="#40000000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="1"
+                    android:text="@string/status_loading"
+                    android:textSize="13sp"
+                    android:textColor="@color/lightest"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/profile_tv_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:shadowColor="#40000000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="1"
+                    android:text="@string/status_loading"
+                    android:textColor="@color/lightest"
+                    android:textColorHint="@color/lightest"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+
+            <TableLayout
+                android:id="@+id/TableLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1.0" >
+
+                    <TextView
+                        android:id="@+id/profile_tv_posting"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1.0"
+                        android:background="@color/darkest_transparent"
+                        android:gravity="center"
+                        android:text="@string/status_loading"
+                        android:textColor="@color/shadow_light" />
+
+                    <TextView
+                        android:id="@+id/profile_tv_marking"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@color/darkest_transparent"
+                        android:gravity="center"
+                        android:text="@string/status_loading"
+                        android:textColor="@color/shadow_light" />
+
+                    <TextView
+                        android:id="@+id/profile_tv_following"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_weight="1.0"
+                        android:background="@color/darkest_transparent"
+                        android:gravity="center"
+                        android:text="@string/status_loading"
+                        android:textColor="@color/shadow_light" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0" >
+
+                    <TextView
+                        android:id="@+id/profile_tv_booking"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1.0"
+                        android:background="@color/darkest_transparent"
+                        android:gravity="center"
+                        android:text="@string/status_loading"
+                        android:textColor="@color/shadow_light" />
+
+                    <TextView
+                        android:id="@+id/profile_tv_comment"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@color/darkest_transparent"
+                        android:gravity="center"
+                        android:text="@string/status_loading"
+                        android:textColor="@color/shadow_light" />
+
+                    <TextView
+                        android:id="@+id/profile_tv_follower"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_weight="1.0"
+                        android:background="@color/darkest_transparent"
+                        android:gravity="center"
+                        android:text="@string/status_loading"
+                        android:textColor="@color/shadow_light" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        </FrameLayout>
+
+        
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@color/lightest"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/profile_lo_salon"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_panel"
+                android:divider="@color/shadow_light"
+                android:dividerPadding="1dp"
+                android:gravity="center_vertical"
+                android:showDividers="middle" >
+
+                <ImageButton
+                    android:id="@+id/profile_bt_salonPhone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/selector_5"
+                    android:contentDescription="@null"
+                    android:minHeight="75dp"
+                    android:minWidth="75dp"
+                    android:src="@drawable/selector_phone" />
+
+                <RelativeLayout
+                    android:id="@+id/profile_lo_salonLeft"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/profile_tv_salonName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:text="@string/status_loading"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/profile_tv_salonAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/profile_tv_salonName"
+                        android:drawablePadding="3dp"
+                        android:text="@string/status_loading"
+                        android:textColor="@color/shadow_medium" />
+
+                    <TextView
+                        android:id="@+id/profile_tv_salonDistance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/profile_tv_salonName"
+                        android:drawablePadding="3dp"
+                        android:text="@string/status_loading"
+                        android:textColor="@color/shadow_medium" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/profile_tv_hairStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/status_loading"
+                android:textColor="@color/shadow_dark" />
+
+            <TextView
+                android:id="@+id/profile_tv_faceShape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_tv_hairStyle"
+                android:layout_marginLeft="10dp"
+                android:text="@string/status_loading"
+                android:textColor="@color/shadow_dark" />
+
+            <LinearLayout
+                android:id="@+id/profile_lo_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/profile_bt_follow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:background="@drawable/selector_5"
+                    android:contentDescription="@null"
+                    android:drawableTop="@drawable/selector_follow"
+                    android:minHeight="75dp"
+                    android:minWidth="75dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/profile_bt_follow" />
+
+                <Button
+                    android:id="@+id/profile_bt_chat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:background="@drawable/selector_5"
+                    android:contentDescription="@null"
+                    android:drawableTop="@drawable/selector_chat"
+                    android:minHeight="75dp"
+                    android:minWidth="75dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/profile_bt_message" />
+
+                <Button
+                    android:id="@+id/profile_bt_salon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:background="@drawable/selector_5"
+                    android:contentDescription="@null"
+                    android:drawableTop="@drawable/selector_salon"
+                    android:minHeight="75dp"
+                    android:minWidth="75dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/profile_bt_salon" />
+
+                <Button
+                    android:id="@+id/profile_bt_post"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:background="@drawable/selector_5"
+                    android:contentDescription="@null"
+                    android:drawableTop="@drawable/selector_hairstyle"
+                    android:minHeight="75dp"
+                    android:minWidth="75dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/profile_bt_post" />
+
+                <Button
+                    android:id="@+id/profile_bt_set"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:background="@drawable/selector_5"
+                    android:contentDescription="@null"
+                    android:drawableTop="@drawable/selector_set"
+                    android:minHeight="75dp"
+                    android:minWidth="75dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/profile_bt_set" />
+                <Button
+                    android:id="@+id/profile_bt_signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:background="@drawable/selector_5"
+                    android:contentDescription="@null"
+                    android:drawableTop="@drawable/selector_signup"
+                    android:minHeight="75dp"
+                    android:minWidth="75dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/profile_bt_signup" />
+                <Button
+                    android:id="@+id/profile_bt_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:background="@drawable/selector_5"
+                    android:contentDescription="@null"
+                    android:drawableTop="@drawable/selector_login"
+                    android:minHeight="75dp"
+                    android:minWidth="75dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/profile_bt_login" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

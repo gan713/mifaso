@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/book_lo_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/book_lo_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="38.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/darkest" >
+
+        <TextView
+            android:id="@+id/book_footer_tv_agreedTime"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/book_tv_footer1"
+            android:textColor="@color/emphasize_light" />
+
+        <TextView
+            android:id="@+id/book_footer_tv_listPrice"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/book_tv_footer2"
+            android:textColor="@color/emphasize_light" />
+
+        <TextView
+            android:id="@+id/book_footer_tv_discount"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/book_tv_footer3"
+            android:textColor="@color/emphasize_light" />
+
+        <TextView
+            android:id="@+id/book_footer_tv_agreedPrice"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/book_tv_footer4"
+            android:textColor="@color/emphasize_light" />
+
+        <TextView
+            android:id="@+id/book_footer_tv_book"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/book_tv_footer5"
+            android:textColor="@color/emphasize_light" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/book_pg_datetime"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/book_lo_footer" >
+
+        <android.support.v4.view.PagerTitleStrip
+            android:id="@+id/book_title_datetime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@color/emphasize_dark"
+            android:paddingBottom="4.0dip"
+            android:paddingTop="4.0dip"
+            android:textColor="@color/emphasize_light" />
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

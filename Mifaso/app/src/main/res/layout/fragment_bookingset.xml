@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/bookingset_lo_listPrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button_4_down"
+        android:padding="10.0dip" >
+
+        <ImageButton
+            android:id="@+id/bookingset_bt_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:src="@drawable/icon_tick_32"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/bookingset_tv_listPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/bookingset_bt_submit"
+            android:layout_alignTop="@id/bookingset_bt_submit"
+            android:gravity="center_vertical"
+            android:text="@string/bookingset_tv_listPrice"
+            android:textColor="@color/emphasize_medium"
+            android:textSize="22.0sp" />
+    </RelativeLayout>
+
+    <com.mifashow.ui.WrappedButtonGroup
+        android:id="@+id/bookingset_wv_day"
+        android:layout_width="wrap_content"
+        app:layout_width="42.0dip"
+        android:layout_height="wrap_content"
+        app:layout_height="30.0dip"
+        android:background="@drawable/shape_panel"
+        app:single="false"
+        app:texts="@array/enum_weekday" />
+
+    <com.mifashow.ui.WrappedButtonGroup
+        android:id="@+id/bookingset_wv_discount"
+        android:layout_width="wrap_content"
+        app:layout_width="49.0dip"
+        android:layout_height="wrap_content"
+        app:layout_height="30.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/shape_panel"
+        app:single="true"
+        app:texts="@array/enum_discount" />
+
+    <ScrollView
+        android:id="@+id/bookingset_sv_time"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginTop="5.0dip" >
+
+        <com.mifashow.ui.WrappedViewGroup
+            android:id="@+id/bookingset_wv_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>

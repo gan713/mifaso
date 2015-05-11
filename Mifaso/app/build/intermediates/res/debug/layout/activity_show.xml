@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/show_sv"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_background" >
+
+    <LinearLayout
+        android:id="@+id/show_lo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/show_tv_hair"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    android:background="@drawable/shape_panel" 
+                    android:text="@string/status_loading" />
+
+        <com.mifashow.ui.WrappedViewGroup
+            android:id="@+id/show_wv_upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15.0dip"
+            android:background="@drawable/shape_panel"
+            android:padding="10.0dip" >
+
+            <com.mifashow.ui.ResizedImageButton
+                android:id="@+id/show_iv_front"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/front"
+                android:onClick="uploadImg"
+                android:scaleType="fitCenter"
+                android:src="@drawable/selector_6" />
+
+            <com.mifashow.ui.ResizedImageButton
+                android:id="@+id/show_iv_back"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/back"
+                android:onClick="uploadImg"
+                android:scaleType="fitCenter"
+                android:src="@drawable/selector_6" />
+
+            <com.mifashow.ui.ResizedImageButton
+                android:id="@+id/show_iv_side"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/side"
+                android:onClick="uploadImg"
+                android:scaleType="fitCenter"
+                android:src="@drawable/selector_6" />
+
+            <com.mifashow.ui.ResizedImageButton
+                android:id="@+id/show_iv_more"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/more"
+                android:onClick="uploadImg"
+                android:scaleType="fitCenter"
+                android:src="@drawable/selector_6" />
+        </com.mifashow.ui.WrappedViewGroup>
+
+        <TextView
+            android:id="@+id/show_tv_notic_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:textColor="@color/shadow_medium"
+            android:text="@string/show_tv_notic_1" />
+        <TextView
+            android:id="@+id/show_tv_notic_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:textColor="@color/shadow_medium"
+            android:text="@string/show_tv_notic_2" />
+
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/layout/activity_show.xml -->

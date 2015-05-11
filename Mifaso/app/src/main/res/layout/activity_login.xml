@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/login_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip" />
+
+        <TextView
+            android:id="@+id/login_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16.0dip"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/login_pg_title"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/login_form"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/shape_background" >
+
+        <RelativeLayout
+            android:id="@+id/register_et_height"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/shape_panel"
+            android:orientation="vertical"
+            android:padding="15.0dip" >
+
+            <AutoCompleteTextView 
+                android:id="@+id/login_et_sign"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:drawableLeft="@drawable/icon_message_16"
+                android:drawablePadding="10dp"
+                android:hint="@string/login_et_hint_sign"
+                android:inputType="textWebEmailAddress"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/login_et_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/login_et_sign"
+                android:layout_marginTop="15.0dip"
+                android:ems="10"
+                android:drawableLeft="@drawable/icon_lock_16"
+                android:drawablePadding="10dp"
+                android:hint="@string/login_et_hint_password"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/login_et_imeActionLabel_password"
+                android:imeOptions="normal|actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/login_bt_findPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/selector_4"
+            android:height="48.0dip"
+            android:text="@string/login_bt_findPassword_text" />
+        <Button
+            android:id="@+id/login_bt_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/login_bt_findPassword"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_4"
+            android:height="48.0dip"
+            android:text="@string/login_bt_login_text" />
+    </RelativeLayout>
+
+</merge>

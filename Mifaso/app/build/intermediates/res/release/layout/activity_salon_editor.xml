@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/salon_sv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightest" >
+
+    <LinearLayout
+        android:id="@+id/salon_lo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightest"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <com.mifashow.ui.WrappedViewGroup
+            android:id="@+id/salon_wv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/salon_bt_attach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rectangle_radius_stroke"
+                android:drawableTop="@drawable/selector_add"
+                android:minHeight="72dp"
+                android:minWidth="72dp"
+                android:paddingTop="15dp"
+                android:text="@string/salon_bt_attach" />
+        </com.mifashow.ui.WrappedViewGroup>
+
+        <TableLayout
+            android:id="@+id/salon_lo_basic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" >
+
+            <TextView
+                android:id="@+id/salon_tv_basic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/salon_tv_basic"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/salon_tv_dividor1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cold"
+                android:height="1dp" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/salon_tv_name_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/salon_tv_name" />
+
+                <TextView
+                    android:id="@+id/salon_tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/selector_edit"
+                    android:drawablePadding="3dp"
+                    android:hint="@string/salon_tv_edit_hint"
+                    android:padding="10dp"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/salon_tv_address_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/salon_tv_address" />
+
+                <TextView
+                    android:id="@+id/salon_tv_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/selector_edit"
+                    android:drawablePadding="3dp"
+                    android:hint="@string/salon_tv_edit_hint"
+                    android:padding="10dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/salon_tv_area_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/salon_tv_area" />
+
+                <TextView
+                    android:id="@+id/salon_tv_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/selector_edit"
+                    android:drawablePadding="3dp"
+                    android:ems="10"
+                    android:hint="@string/salon_tv_edit_hint"
+                    android:padding="10dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/salon_tv_environment_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/salon_tv_environment" />
+
+                <TextView
+                    android:id="@+id/salon_tv_environment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/selector_edit"
+                    android:drawablePadding="3dp"
+                    android:ems="10"
+                    android:hint="@string/salon_tv_edit_hint"
+                    android:padding="10dp"
+                    android:text="" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/salon_tv_call_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/salon_tv_call" />
+
+                <TextView
+                    android:id="@+id/salon_tv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/selector_edit"
+                    android:drawablePadding="3dp"
+                    android:ems="10"
+                    android:hint="@string/salon_tv_edit_hint"
+                    android:padding="10dp"
+                    android:text="" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/salon_lo_consumption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/salon_tv_consumption_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/salon_tv_consumption"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/salon_tv_dividor2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cold"
+                android:height="1dp" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/salon_tv_cut_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/salon_tv_cut" />
+
+                <TextView
+                    android:id="@+id/salon_tv_cut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/selector_edit"
+                    android:drawablePadding="3dp"
+                    android:hint="@string/salon_tv_edit_hint"
+                    android:padding="10dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/salon_tv_permanent_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/salon_tv_permanent" />
+
+                <TextView
+                    android:id="@+id/salon_tv_permanent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/selector_edit"
+                    android:drawablePadding="3dp"
+                    android:hint="@string/salon_tv_edit_hint"
+                    android:padding="10dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/salon_tv_color_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/salon_tv_color" />
+
+                <TextView
+                    android:id="@+id/salon_tv_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/selector_edit"
+                    android:drawablePadding="3dp"
+                    android:hint="@string/salon_tv_edit_hint"
+                    android:padding="10dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/salon_tv_braid_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/salon_tv_braid" />
+
+                <TextView
+                    android:id="@+id/salon_tv_braid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/selector_edit"
+                    android:drawablePadding="3dp"
+                    android:hint="@string/salon_tv_edit_hint"
+                    android:padding="10dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/salon_tv_treatment_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/salon_tv_treatment" />
+
+                <TextView
+                    android:id="@+id/salon_tv_treatment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/selector_edit"
+                    android:drawablePadding="3dp"
+                    android:hint="@string/salon_tv_edit_hint"
+                    android:padding="10dp"
+                    android:text="" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/salon_tv_discount_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/salon_tv_discount"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/salon_tv_dividor3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cold"
+            android:height="1dp" />
+
+        <TextView
+            android:id="@+id/salon_tv_discount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/selector_edit"
+            android:drawablePadding="3dp"
+            android:hint="@string/salon_tv_edit_hint"
+            android:padding="10dp"
+            android:text="" />
+
+        <RelativeLayout
+            android:id="@+id/salon_lo_stylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/salon_tv_stylist_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/salon_tv_stylist"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/salon_tv_dividor5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/salon_tv_stylist_label"
+                android:background="@color/cold"
+                android:height="1dp" />
+
+            <TextView
+                android:id="@+id/salon_tv_invite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/salon_tv_dividor5"
+                android:drawableLeft="@drawable/selector_add"
+                android:drawablePadding="3dp"
+                android:padding="10dp"
+                android:text="@string/salon_tv_invite"
+                android:textColor="@color/cold" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/salon_tv_recruitment_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/salon_tv_recruitment"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/salon_tv_dividor4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cold"
+            android:height="1dp" />
+
+        <TextView
+            android:id="@+id/salon_tv_recruitment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/selector_edit"
+            android:drawablePadding="3dp"
+            android:hint="@string/salon_tv_edit_hint"
+            android:padding="10dp"
+            android:text="" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/layout/activity_salon_editor.xml -->

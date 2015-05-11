@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidstudioProjects\Mifaso\app\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="D:\AndroidstudioProjects\Mifaso\app\build\intermediates\pre-dexed\debug\httpmime-4.1.3-715c66488b8319db6240108631ad63090e738fb7.jar" />
+    </item>
+    <item
+        jar="D:\AndroidstudioProjects\Mifaso\app\libs\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="D:\AndroidstudioProjects\Mifaso\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-59737d5b0de2c10d97a450b317f0a4bb88984468.jar" />
+    </item>
+    <item
+        jar="D:\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\AndroidstudioProjects\Mifaso\app\build\intermediates\pre-dexed\debug\gson-2.2.4-5055e8ecd8354ccf84c9d0b9e41dfbed08641bd4.jar" />
+    </item>
+    <item
+        jar="D:\AndroidstudioProjects\Mifaso\app\libs\android-viewbadger.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f1303b50d535716ca7601c5014357b8435658313">
+        <dex dex="D:\AndroidstudioProjects\Mifaso\app\build\intermediates\pre-dexed\debug\android-viewbadger-bf92b485e3573862d4c145d18f1d19948cedd0a5.jar" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\AndroidstudioProjects\Mifaso\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-73b9883bfda7e9a6ae205d0e99c174e73ba72aaa.jar" />
+    </item>
+    <item
+        jar="D:\AndroidstudioProjects\Mifaso\app\libs\gdt_mob_release_v4.2.432.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="be1b124545a417c4550bc75af5950df7107dae60">
+        <dex dex="D:\AndroidstudioProjects\Mifaso\app\build\intermediates\pre-dexed\debug\gdt_mob_release_v4.2.432-093bdc104c3aa06c0b73cb11dc0d84c3e0acd7bc.jar" />
+    </item>
+    <item
+        jar="D:\AndroidstudioProjects\Mifaso\app\libs\baidumapapi_v2_4_1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f09ff30981f3430534c6fce3bd9fea071d93f513">
+        <dex dex="D:\AndroidstudioProjects\Mifaso\app\build\intermediates\pre-dexed\debug\baidumapapi_v2_4_1-80193ff3a737523dc9d4603e589766e20947e95d.jar" />
+    </item>
+    <item
+        jar="D:\AndroidstudioProjects\Mifaso\app\libs\locSDK_4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c117908d3d5d1e1da422f513db06f96ec246d85">
+        <dex dex="D:\AndroidstudioProjects\Mifaso\app\build\intermediates\pre-dexed\debug\locSDK_4.1-18a367e2ef1dafba901ab88d9b3df49af6ac2b55.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient android:startColor="#ffe4e4e4" android:endColor="#ff999999" android:angle="90.0" android:type="linear" />
+        </shape>
+    </item>
+    <item android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="1.0dip">
+        <shape>
+            <gradient android:startColor="#ffffffff" android:endColor="#ffe9e9e9" android:angle="90.0" android:type="linear" />
+        </shape>
+    </item>
+</layer-list><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/drawable/shape_button_4_down.xml -->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shadow_light" >
+
+    <TextView
+        android:id="@+id/about_tv_appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/shadow_medium"
+        android:text="@string/app_name"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/about_iv_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/about_tv_appname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/icon_bow" />
+
+    <TextView
+        android:id="@+id/about_tv_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/shadow_medium"
+        android:textSize="12sp"
+        android:text="Copyright © 美发秀  All Rights Reserved." />
+
+    <TextView
+        android:id="@+id/about_tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/about_tv_appname"
+        android:layout_toRightOf="@+id/about_tv_appname"
+        android:text="@string/status_loading"
+        android:textColor="@color/hot" />
+
+</RelativeLayout>

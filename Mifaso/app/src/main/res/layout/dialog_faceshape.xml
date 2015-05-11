@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/faceshape_sv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null" >
+
+    <com.mifashow.ui.WrappedViewGroup
+        android:id="@+id/faceshape_vg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15.0dip"
+        android:background="@drawable/shape_panel"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/faceshape_bt_standardFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_5"
+            android:drawableTop="@drawable/ic_faceshape_standard_s"
+            android:tag="STANDARD"
+            android:text="@string/register_bt_text_standardface" />
+
+        <Button
+            android:id="@+id/faceshape_bt_jiaFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_5"
+            android:drawableTop="@drawable/ic_faceshape_jia_s"
+            android:tag="JIA"
+            android:text="@string/register_bt_text_jiaface" />
+
+        <Button
+            android:id="@+id/faceshape_bt_shenFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_5"
+            android:drawableTop="@drawable/ic_faceshape_shen_s"
+            android:tag="SHEN"
+            android:text="@string/register_bt_text_shenface" />
+
+        <Button
+            android:id="@+id/faceshape_bt_youFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_5"
+            android:drawableTop="@drawable/ic_faceshape_you_s"
+            android:tag="YOU"
+            android:text="@string/register_bt_text_youface" />
+
+        <Button
+            android:id="@+id/faceshape_bt_guoFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_5"
+            android:drawableTop="@drawable/ic_faceshape_guo_s"
+            android:tag="GUO"
+            android:text="@string/register_bt_text_guoface" />
+
+        <Button
+            android:id="@+id/faceshape_bt_circleFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_5"
+            android:drawableTop="@drawable/ic_faceshape_circle_s"
+            android:tag="CIRCLE"
+            android:text="@string/register_bt_text_circleface" />
+
+        <Button
+            android:id="@+id/faceshape_bt_squareFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_5"
+            android:drawableTop="@drawable/ic_faceshape_square_s"
+            android:tag="SQUARE"
+            android:text="@string/register_bt_text_squareface" />
+    </com.mifashow.ui.WrappedViewGroup>
+
+</ScrollView>

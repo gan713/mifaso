@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_lo_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background">
+    <!-- 
+    <RelativeLayout
+        android:id="@+id/message_lv_manager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/shadow_light"
+        android:padding="10.0dip" >
+        <ImageView
+        android:id="@+id/message_iv_manager"
+        android:layout_width="45.0dip"
+        android:layout_height="45.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:src="@drawable/icon_bow"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/message_tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/message_iv_manager"
+        android:text="@string/messagebox_tv_manager_username"
+        android:textSize="16.0sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/message_tv_review"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/message_iv_manager"
+        android:layout_alignLeft="@id/message_tv_username"
+        android:singleLine="true"
+        android:text="@string/messagebox_tv_manager_message"
+        android:textColor="@color/shadow_medium" />
+    </RelativeLayout>
+     -->
+<ListView
+    android:id="@+id/message_lv_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+</RelativeLayout>
+<!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/layout/fragment_message.xml -->

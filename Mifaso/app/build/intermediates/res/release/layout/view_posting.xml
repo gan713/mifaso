@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/posting_lo_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_panel"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/posting_lo_creater"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <com.mifashow.ui.ResizedImageView
+            android:id="@+id/posting_iv_figure"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:contentDescription="@null"
+            android:src="@drawable/nofigure" />
+
+        <LinearLayout
+            android:id="@+id/posting_lo_createrInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip" >
+
+            <RelativeLayout
+                android:id="@+id/posting_lo_createrNameAndDistance"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                
+                <TextView
+                    android:id="@+id/posting_tv_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@drawable/ic_pin_16"
+                    android:singleLine="true"
+                    android:text="@string/status_loading"
+                    android:textColor="@color/shadow_dark"
+                    android:textSize="12.0sp" />
+
+                <TextView
+                    android:id="@+id/posting_tv_createrName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@id/posting_tv_distance"
+                    android:singleLine="true"
+                    android:text="@string/status_loading"
+                    android:textColor="@color/shadow_dark" />
+
+                
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/posting_tv_text"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:text="@string/status_loading"
+                android:textColor="@color/shadow_medium"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.mifashow.ui.RenderView
+        android:id="@+id/posting_lo_rendering"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/main_dark" />
+
+    <LinearLayout
+        android:id="@+id/posting_lo_tool"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:id="@+id/posting_lo_booking"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/posting_tv_booking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_booking_16"
+                android:drawablePadding="5dp"
+                android:textColor="@color/shadow_medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/posting_lo_comment"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/posting_tv_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_comment_16"
+                android:drawablePadding="5dp"
+                android:textColor="@color/shadow_medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/posting_lo_marking"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/posting_tv_marking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_love_16"
+                android:drawablePadding="5dp"
+                android:textColor="@color/shadow_medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/posting_lo_handle"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/posting_tv_handle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_more_16"
+                android:drawablePadding="5dp"
+                android:textColor="@color/shadow_medium" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/layout/view_posting.xml -->

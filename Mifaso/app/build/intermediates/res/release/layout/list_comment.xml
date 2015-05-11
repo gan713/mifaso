@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="10.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.mifashow.ui.ResizedImageView
+            android:id="@+id/commentlist_iv_customerFigure"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:src="@drawable/nofigure" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:orientation="vertical"
+            android:background="@drawable/shape_panel" >
+
+            <TextView
+                android:id="@+id/commentlist_tv_comment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/status_loading"
+                android:textColor="@color/shadow_dark" />
+
+            <com.mifashow.ui.RenderView
+                android:id="@+id/commentlist_rv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip" />
+
+            <TextView
+                android:id="@+id/commentlist_tv_commentTime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/status_loading"
+                android:textColor="@color/shadow_medium"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/commentlist_lo_explanation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <com.mifashow.ui.ResizedImageView
+                    android:id="@+id/commentlist_iv_stylistFigure"
+                    android:layout_width="32.0dip"
+                    android:layout_height="32.0dip"
+                    android:src="@drawable/nofigure" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/commentlist_tv_explanation"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/status_loading"
+                        android:textColor="@color/shadow_dark" />
+
+                    <TextView
+                        android:id="@+id/commentlist_tv_explainTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5.0dip"
+                        android:text="@string/status_loading"
+                        android:textColor="@color/shadow_medium"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/layout/list_comment.xml -->

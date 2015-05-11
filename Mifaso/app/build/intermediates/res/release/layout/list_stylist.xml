@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:padding="8dip">
+
+    <com.mifashow.ui.RoundAngleImageView
+        android:id="@+id/stylist_iv_figure"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/nofigure" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10.0dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/stylist_tv_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status_loading"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/stylist_tv_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape_rectangle_radius_pink"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:singleLine="true"
+                android:text="@string/status_loading"
+                android:textColor="@color/lightest"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center_vertical">"
+
+            <TextView
+                android:id="@+id/stylist_tv_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_scissors_16"
+                android:drawablePadding="5dp"
+                android:text="@string/status_loading"
+                android:textColor="@color/emphasize_medium"
+                android:textSize="13sp" />
+
+            <RatingBar
+                android:id="@+id/stylist_rb_rating"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:numStars="5"
+                android:rating="3.0" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/stylist_tv_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:text="@string/status_loading"
+            android:textColor="@color/shadow_medium" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/layout/list_stylist.xml -->

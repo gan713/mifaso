@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5.0dip"
+    android:background="@drawable/shape_rectangle_topleft_bottomright_radius"
+    android:orientation="horizontal"
+    android:padding="5.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4.0"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/booking_tv_agreedDate"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/shape_rectangle_topleftradius"
+            android:gravity="center"
+            android:text="@string/status_loading"
+            android:textColor="@color/lightest"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/booking_tv_agreedTime"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/status_loading"
+            android:textColor="@color/emphasize_dark"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/booking_tv_userName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5.0dip"
+            android:text="@string/status_loading"
+            android:textColor="@color/shadow_dark"
+            android:textStyle="bold" 
+            android:textSize="16.0sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <com.mifashow.ui.ResizedImageView
+                android:id="@+id/booking_iv_userFigure"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:src="@drawable/shape_rect_shadow_shadow" />
+
+            <com.mifashow.ui.ResizedImageView
+                android:id="@+id/booking_iv_postingRendering"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:src="@drawable/shape_rect_shadow_shadow" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4.0"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/booking_tv_agreedPrice"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/status_loading"
+            android:textColor="@color/shadow_dark"
+            android:textSize="20.0dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/booking_tv_status"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="@string/status_loading"
+            android:textColor="@color/shadow_dark"
+            android:textSize="14.0sp"/>
+
+        <Button
+            android:id="@+id/booking_bt_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_1"
+            android:text="@string/action_cancel"
+            android:textColor="@color/shadow_dark" />
+
+        <Button
+            android:id="@+id/booking_bt_explain"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_1"
+            android:text="@string/action_explain"
+            android:textColor="@color/shadow_dark" />
+
+        <Button
+            android:id="@+id/booking_bt_comment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_1"
+            android:text="@string/action_comment"
+            android:textColor="@color/shadow_dark" />
+    </LinearLayout>
+
+</LinearLayout>

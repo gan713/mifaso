@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/main_action_share"
+        android:icon="@drawable/selector_share"
+        android:onClick="share"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_share"/>
+    <item
+        android:id="@+id/main_action_search"
+        android:icon="@drawable/selector_search"
+        android:onClick="search"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_search"/>
+    <item
+        android:id="@+id/main_action_map"
+        android:icon="@drawable/selector_location"
+        android:onClick="map"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_map"/>
+
+</menu><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/menu/main.xml -->

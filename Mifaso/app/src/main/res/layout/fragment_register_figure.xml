@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mifaso="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_background" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10.0dip"
+        android:background="@drawable/shape_panel"
+        android:padding="15.0dip" >
+
+        <Button
+            android:id="@+id/register_bt_figure"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:onClick="uploadImg"
+            android:scaleType="fitCenter"
+            android:drawableTop="@drawable/selector_add"
+            android:paddingTop="25dp"
+            android:text="@string/register_bt_figure"
+            android:textColor="@color/cold"
+            android:background="@drawable/selector_5"/>
+
+        <TextView
+            android:id="@+id/register_tv_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/register_bt_figure"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_toRightOf="@id/register_bt_figure"
+            android:text="@string/register_tv_height_text" />
+
+        <EditText
+            android:id="@+id/register_et_height"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/register_tv_height"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_toRightOf="@id/register_tv_height"
+            android:ems="10"
+            android:hint="@string/register_et_height_hint"
+            android:textColorHint="@color/shadow_light"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:minWidth="0.0dip" />
+
+        <TextView
+            android:id="@+id/register_tv_height_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/register_et_height"
+            android:layout_toRightOf="@id/register_et_height"
+            android:text="@string/register_tv_height_unit_text" />
+
+        <TextView
+            android:id="@+id/register_tv_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register_tv_height"
+            android:layout_marginBottom="40.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="40.0dip"
+            android:layout_toRightOf="@id/register_bt_figure"
+            android:text="@string/register_tv_weight_text" />
+
+        <EditText
+            android:id="@+id/register_et_weight"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/register_tv_weight"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_toRightOf="@id/register_tv_height"
+            android:ems="10"
+            android:hint="@string/register_et_weight_hint"
+            android:textColorHint="@color/shadow_light"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:minWidth="0.0dip" />
+
+        <TextView
+            android:id="@+id/register_tv_weight_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/register_et_weight"
+            android:layout_toRightOf="@id/register_et_weight"
+            android:text="@string/register_tv_weight_unit_text" />
+
+        <TextView
+            android:id="@+id/register_tv_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register_tv_weight"
+            android:layout_marginLeft="20dip"
+            android:layout_toRightOf="@id/register_bt_figure"
+            android:text="@string/register_tv_birthday_text" />
+
+        <EditText
+            android:id="@+id/register_et_birthday"
+            android:layout_width="110.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/register_tv_birthday"
+            android:layout_marginLeft="5.0dip"
+            android:layout_toRightOf="@id/register_tv_birthday"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/register_et_birthday_hint"
+            android:textColorHint="@color/shadow_light"
+            android:inputType="none"
+            android:minWidth="0.0dip"
+            android:onClick="chooseBirthday" />
+
+        <com.mifashow.ui.WrappedButtonGroup
+            android:id="@+id/register_wv_sex"
+            android:layout_width="fill_parent"
+            mifaso:layout_width="45.0dip"
+            android:layout_height="wrap_content"
+            mifaso:layout_height="30.0dip"
+            android:layout_below="@id/register_bt_figure"
+            android:layout_marginTop="15.0dip"
+            android:layout_toLeftOf="@id/register_tv_birthday"
+            mifaso:texts="@array/enum_sex" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewer_lo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/darkest"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewer_vp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/viewer_tv_sumpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:text="@string/status_loading"
+        android:textColor="@color/lightest"
+        android:textSize="36.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/viewer_tv_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/viewer_tv_sumpage"
+        android:layout_toLeftOf="@id/viewer_tv_sumpage"
+        android:text="@string/status_loading"
+        android:textColor="@color/lightest"
+        android:textSize="48.0sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/viewer_lo_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/viewer_tv_faceShape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@null"
+            android:textColor="@color/shadow_light"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/viewer_tv_ageType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@null"
+            android:textColor="@color/shadow_light"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/viewer_tv_sumpage"
+        android:orientation="vertical"
+        android:layout_toLeftOf="@id/viewer_tv_page"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/viewer_tv_hairType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@null"
+            android:textColor="@color/shadow_light"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/viewer_tv_serviceType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@null"
+            android:textColor="@color/shadow_light"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/layout/activity_viewer.xml -->

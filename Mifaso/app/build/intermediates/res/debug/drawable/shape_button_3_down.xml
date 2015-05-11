@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="8.0dip" />
+            <solid android:color="@color/emphasize_medium" />
+        </shape>
+    </item>
+    <item android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip">
+        <shape>
+            <corners android:radius="8.0dip" />
+            <solid android:color="@color/darkest" />
+        </shape>
+    </item>
+    <item android:left="2.0dip" android:top="3.0dip" android:right="2.0dip" android:bottom="2.0dip">
+        <shape>
+            <corners android:radius="8.0dip" />
+            <solid android:color="@color/emphasize_dark" />
+        </shape>
+    </item>
+</layer-list><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/drawable/shape_button_3_down.xml -->

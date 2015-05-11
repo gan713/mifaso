@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:background="@color/lightest"
+    android:focusable="false" >
+
+    <ScrollView
+        android:id="@+id/register_sv_faceShape"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusable="false" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false" >
+
+            <Button
+                android:id="@+id/register_bt_jiaface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:padding="5dp"
+                android:drawableTop="@drawable/ic_faceshape_jia_s"
+                android:background="@drawable/selector_5"
+                android:focusable="false"
+                android:onClick="chooseface"
+                android:text="@string/register_bt_text_jiaface" />
+
+            <Button
+                android:id="@+id/register_bt_shenface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_alignTop="@id/register_bt_jiaface"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_toRightOf="@id/register_bt_jiaface"
+                android:drawableTop="@drawable/ic_faceshape_shen_s"
+                android:background="@drawable/selector_5"
+                android:focusable="false"
+                android:onClick="chooseface"
+                android:text="@string/register_bt_text_shenface" />
+
+            <Button
+                android:id="@+id/register_bt_youface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_alignTop="@id/register_bt_jiaface"
+                android:layout_marginLeft="10dip"
+                android:layout_toRightOf="@id/register_bt_shenface"
+                android:drawableTop="@drawable/ic_faceshape_you_s"
+                android:background="@drawable/selector_5"
+                android:focusable="false"
+                android:onClick="chooseface"
+                android:text="@string/register_bt_text_youface" />
+
+            <Button
+                android:id="@+id/register_bt_guoface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_alignLeft="@id/register_bt_jiaface"
+                android:layout_below="@id/register_bt_jiaface"
+                android:drawableTop="@drawable/ic_faceshape_guo_s"
+                android:background="@drawable/selector_5"
+                android:focusable="false"
+                android:onClick="chooseface"
+                android:text="@string/register_bt_text_guoface" />
+
+            <Button
+                android:id="@+id/register_bt_standardface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_below="@id/register_bt_guoface"
+                android:layout_margin="10dip"
+                android:drawableTop="@drawable/ic_faceshape_standard_s"
+                android:background="@drawable/selector_5"
+                android:focusable="false"
+                android:onClick="chooseface"
+                android:text="@string/register_bt_text_standardface" />
+
+            <Button
+                android:id="@+id/register_bt_circleface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_alignLeft="@id/register_bt_shenface"
+                android:layout_alignTop="@id/register_bt_guoface"
+                android:drawableTop="@drawable/ic_faceshape_circle_s"
+                android:background="@drawable/selector_5"
+                android:focusable="false"
+                android:onClick="chooseface"
+                android:text="@string/register_bt_text_circleface" />
+
+            <Button
+                android:id="@+id/register_bt_squareface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_alignLeft="@id/register_bt_youface"
+                android:layout_alignTop="@id/register_bt_guoface"
+                android:drawableTop="@drawable/ic_faceshape_square_s"
+                android:background="@drawable/selector_5"
+                android:focusable="false"
+                android:onClick="chooseface"
+                android:text="@string/register_bt_text_squareface" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/register_bt_chosedFace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="false"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginRight="30.0dip"
+        android:clickable="false"
+        android:drawableTop="@drawable/ic_faceshape_standard"
+        android:background="@drawable/selector_5"
+        android:focusable="false"
+        android:text="@string/register_bt_text_chosedFace" />
+
+</RelativeLayout>

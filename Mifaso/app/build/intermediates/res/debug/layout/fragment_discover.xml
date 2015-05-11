@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_background" >
+
+    <com.mifashow.ui.WrappedViewGroup
+        android:id="@+id/discover_wv_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:wvg_margin="6.0dip" />
+
+</ScrollView><!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/layout/fragment_discover.xml -->

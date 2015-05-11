@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="enum_hairLength">
+        <item>長發</item>
+        <item>中長發</item>
+        <item>短發</item>
+    </string-array>
+    <string-array name="enum_bangType">
+        <item>中分劉海</item>
+        <item>長斜劉海</item>
+        <item>短斜劉海</item>
+        <item>短齊劉海</item>
+    </string-array>
+    <string-array name="enum_sex">
+        <item>女</item>
+        <item>男</item>
+    </string-array>
+    <string-array name="enum_faceShape">
+        <item>標準臉型</item>
+        <item>甲字臉型</item>
+        <item>申字臉型</item>
+        <item>由字臉型</item>
+        <item>國字臉型</item>
+        <item>圓形臉型</item>
+        <item>方形臉型</item>
+    </string-array>
+    <string-array name="enum_curlyType">
+        <item>直</item>
+        <item>卷</item>
+    </string-array>
+    <string-array name="enum_userType">
+        <item>用戶</item>
+        <item>發型師</item>
+    </string-array>
+    <string-array name="enum_age">
+        <item>5歲以下</item>
+        <item>6至15歲</item>
+        <item>16至21歲</item>
+        <item>22至25歲</item>
+        <item>26至30歲</item>
+        <item>31至35歲</item>
+        <item>36歲以上</item>
+    </string-array>
+    <string-array name="main_tapText">
+        <item>發型</item>
+        <item>沙龍</item>
+        <item>用戶</item>
+        <item>我</item>
+        <item>聊天</item>
+    </string-array>
+    <string-array name="action_list">
+        <item>最新發型</item>
+        <item>100km</item>
+        <item>10km</item>
+        <item>我的關註</item>
+        <item>推薦給我</item>
+    </string-array>
+    <string-array name="action_list_visitor">
+        <item>最新發型</item>
+        <item>100km</item>
+        <item>10km</item>
+    </string-array>
+    <string-array name="enum_services">
+        <item>洗剪吹</item>
+        <item>燙發</item>
+        <item>染發</item>
+        <item>編發</item>
+        <item>護理</item>
+    </string-array>
+    <string-array name="enum_weekday">
+        <item>周日</item>
+        <item>周壹</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string-array name="action_takeOrRotateOrClearPhoto">
+        <item>拍照</item>
+        <item>相冊</item>
+        <item>旋轉</item>
+        <item>清除</item>
+    </string-array>
+    <string-array name="action_takeOrRotatePhoto">
+        <item>拍照</item>
+        <item>相冊</item>
+        <item>旋轉</item>
+    </string-array>
+    <string-array name="action_takePhoto">
+        <item>拍照</item>
+        <item>相冊</item>
+    </string-array>
+    <string-array name="action_userProfile">
+        <item>註銷登錄</item>
+        <item>修改個人資料</item>
+        <item>修改密碼</item>
+        <item>關於</item>
+    </string-array>
+    <string-array name="action_posterCreaterHandle">
+        <item>類似的發型</item>
+        <item>分享</item>
+        <item>預約設置</item>
+        <item>刪除</item>
+    </string-array>
+    <string-array name="action_showCreaterHandle">
+        <item>類似的發型</item>
+        <item>分享</item>
+        <item>刪除</item>
+    </string-array>
+    <string-array name="action_postingHandle">
+        <item>類似的發型</item>
+        <item>分享</item>
+        <item>舉報</item>
+    </string-array>
+    <string-array name="action_reportHandle">
+        <item>刪除發型</item>
+        <item>不操作</item>
+    </string-array>
+    <string-array name="action_arbitrateHandle">
+        <item>駁回申訴，發布評價及解釋</item>
+        <item>申訴有效，作廢預約記錄</item>
+    </string-array>
+    <string-array name="enum_reportType">
+        <item>圖片不屬於同壹個發型</item>
+        <item>圖片與文字不符</item>
+        <item>地址不詳細或不真實</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="enum_discount">
+        <item>不營業</item>
+        <item>原價</item>
+        <item>9折</item>
+        <item>8折</item>
+        <item>7折</item>
+        <item>6折</item>
+        <item>5折</item>
+        <item>4折</item>
+        <item>3折</item>
+        <item>2折</item>
+        <item>1折</item>
+    </string-array>
+    <string-array name="booking_timeGroup">
+        <item>今天</item>
+        <item>明天</item>
+        <item>本周</item>
+        <item>歷史</item>
+    </string-array>
+    <string-array name="booking_status">
+        <item>等待確認</item>
+        <item>等待評價</item>
+        <item>等待解釋</item>
+        <item>等待裁定</item>
+        <item>已經結束</item>
+        <item>已經取消</item>
+        <item>過期失效</item>
+    </string-array>
+    <string-array name="action_followingHandle">
+        <item>私信</item>
+        <item>取消關註</item>
+    </string-array>
+    <string-array name="action_messageBoxHandle">
+        <item>清除所選</item>
+        <item>清除已處理</item>
+        <item>全部清除</item>
+    </string-array><string-array name="action_salonImageHandle">
+        <item>左移</item>
+        <item>右移</item>
+        <item>置首</item>
+        <item>置末</item>
+        <item>刪除</item>
+    </string-array>
+    <string-array name="action_salonStylistHandle">
+        <item>移除</item>
+        <item>移交管理權</item>
+    </string-array>
+    <string-array name="enum_userSourceType">
+        <item>關註</item>
+        <item>粉絲</item>
+    </string-array>
+    <string-array name="enum_stylistLevel">
+        <item>編輯簡介或店鋪信息</item>
+        <item>收藏1個發型</item>
+        <item>關註1個用戶</item>
+        <item>發布1個發型</item>
+        <item>獲得1次收藏</item>
+        <item>獲得1個關註</item>
+    </string-array>
+    <string-array name="enum_level">
+        <item>編輯簡介</item>
+        <item>收藏1個發型</item>
+        <item>關註1個用戶</item>
+        <item>發布1個發型</item>
+        <item>獲得1次收藏</item>
+        <item>獲得1個關註</item>
+    </string-array>
+</resources>

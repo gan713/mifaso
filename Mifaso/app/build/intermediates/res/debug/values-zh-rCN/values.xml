@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/values-zh-rCN/arrays.xml -->
+    <eat-comment/>
+    <string-array name="action_arbitrateHandle">
+        <item>驳回申诉，发布评价及解释</item>
+        <item>申诉有效，作废预约记录</item>
+    </string-array>
+    <string-array name="action_followingHandle">
+        <item>私信</item>
+        <item>取消关注</item>
+    </string-array>
+    <string-array name="action_list">
+        <item>最新发型</item>
+        <item>100km</item>
+        <item>10km</item>
+        <item>我的关注</item>
+        <item>推荐给我</item>
+    </string-array>
+    <string-array name="action_list_visitor">
+        <item>最新发型</item>
+        <item>100km</item>
+        <item>10km</item>
+    </string-array>
+    <string-array name="action_messageBoxHandle">
+        <item>清除所选</item>
+        <item>清除已处理</item>
+        <item>全部清除</item>
+    </string-array>
+    <string-array name="action_posterCreaterHandle">
+        <item>类似的发型</item>
+        <item>分享</item>
+        <item>预约设置</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="action_postingHandle">
+        <item>类似的发型</item>
+        <item>分享</item>
+        <item>举报</item>
+    </string-array>
+    <string-array name="action_reportHandle">
+        <item>删除发型</item>
+        <item>不操作</item>
+    </string-array>
+    <string-array name="action_salonImageHandle">
+        <item>左移</item>
+        <item>右移</item>
+        <item>置首</item>
+        <item>置末</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="action_salonStylistHandle">
+        <item>移除</item>
+        <item>移交管理权</item>
+    </string-array>
+    <string-array name="action_showCreaterHandle">
+        <item>类似的发型</item>
+        <item>分享</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="action_takeOrRotateOrClearPhoto">
+        <item>拍照</item>
+        <item>相册</item>
+        <item>旋转</item>
+        <item>清除</item>
+    </string-array>
+    <string-array name="action_takeOrRotatePhoto">
+        <item>拍照</item>
+        <item>相册</item>
+        <item>旋转</item>
+    </string-array>
+    <string-array name="action_takePhoto">
+        <item>拍照</item>
+        <item>相册</item>
+    </string-array>
+    <string-array name="action_userProfile">
+        <item>注销登录</item>
+        <item>修改个人资料</item>
+        <item>修改密码</item>
+        <item>关于</item>
+    </string-array>
+    <string-array name="booking_status">
+        <item>等待确认</item>
+        <item>等待评价</item>
+        <item>等待解释</item>
+        <item>等待裁定</item>
+        <item>已经结束</item>
+        <item>已经取消</item>
+        <item>过期失效</item>
+    </string-array>
+    <string-array name="booking_timeGroup">
+        <item>今天</item>
+        <item>明天</item>
+        <item>本周</item>
+        <item>历史</item>
+    </string-array>
+    <string-array name="enum_age">
+        <item>5岁以下</item>
+        <item>6至15岁</item>
+        <item>16至21岁</item>
+        <item>22至25岁</item>
+        <item>26至30岁</item>
+        <item>31至35岁</item>
+        <item>36岁以上</item>
+    </string-array>
+    <string-array name="enum_bangType">
+        <item>中分刘海</item>
+        <item>长斜刘海</item>
+        <item>短斜刘海</item>
+        <item>短齐刘海</item>
+    </string-array>
+    <string-array name="enum_curlyType">
+        <item>直</item>
+        <item>卷</item>
+    </string-array>
+    <string-array name="enum_discount">
+        <item>不营业</item>
+        <item>原价</item>
+        <item>9折</item>
+        <item>8折</item>
+        <item>7折</item>
+        <item>6折</item>
+        <item>5折</item>
+        <item>4折</item>
+        <item>3折</item>
+        <item>2折</item>
+        <item>1折</item>
+    </string-array>
+    <string-array name="enum_faceShape">
+        <item>标准脸型</item>
+        <item>甲字脸型</item>
+        <item>申字脸型</item>
+        <item>由字脸型</item>
+        <item>国字脸型</item>
+        <item>圆形脸型</item>
+        <item>方形脸型</item>
+    </string-array>
+    <string-array name="enum_hairLength">
+        <item>长发</item>
+        <item>中长发</item>
+        <item>短发</item>
+    </string-array>
+    <string-array name="enum_level">
+        <item>编辑简介</item>
+        <item>收藏1个发型</item>
+        <item>关注1个用户</item>
+        <item>发布1个发型</item>
+        <item>获得1次收藏</item>
+        <item>获得1个关注</item>
+    </string-array>
+    <string-array name="enum_reportType">
+        <item>图片不属于同一个发型</item>
+        <item>图片与文字不符</item>
+        <item>地址不详细或不真实</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="enum_services">
+        <item>洗剪吹</item>
+        <item>烫发</item>
+        <item>染发</item>
+        <item>编发</item>
+        <item>护理</item>
+    </string-array>
+    <string-array name="enum_sex">
+        <item>女</item>
+        <item>男</item>
+    </string-array>
+    <string-array name="enum_stylistLevel">
+        <item>编辑简介或店铺信息</item>
+        <item>收藏1个发型</item>
+        <item>关注1个用户</item>
+        <item>发布1个发型</item>
+        <item>获得1次收藏</item>
+        <item>获得1个关注</item>
+    </string-array>
+    <string-array name="enum_userSourceType">
+        <item>关注</item>
+        <item>粉丝</item>
+    </string-array>
+    <string-array name="enum_userType">
+        <item>用户</item>
+        <item>发型师</item>
+    </string-array>
+    <string-array name="enum_weekday">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string-array name="main_tapText">
+        <item>发型</item>
+        <item>沙龙</item>
+        <item>用户</item>
+        <item>我</item>
+        <item>聊天</item>
+    </string-array>
+    <!-- From: file:/D:/AndroidstudioProjects/Mifaso/app/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="about_at">返回</string>
+    <string name="action_add">新增</string>
+    <string name="action_arbitrate">申诉恶意评价</string>
+    <string name="action_book">预约</string>
+    <string name="action_bookings">预约</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_clearHandledChat">清除已处理</string>
+    <string name="action_clearUpChat">清空会话记录</string>
+    <string name="action_comment">评价</string>
+    <string name="action_commit">接受</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_explain">解释</string>
+    <string name="action_handle">处理</string>
+    <string name="action_map">地图</string>
+    <string name="action_no">否</string>
+    <string name="action_ok">确定</string>
+    <string name="action_reComment">改评</string>
+    <string name="action_rebuildChat">重建会话记录</string>
+    <string name="action_refresh">刷新</string>
+    <string name="action_save">保存</string>
+    <string name="action_search">搜索</string>
+    <string name="action_send">发送</string>
+    <string name="action_share">分享</string>
+    <string name="action_yes">是</string>
+    <string name="app_name">找发型师</string>
+    <string name="book_tv_discount_text">%1$d折</string>
+    <string name="book_tv_footer1">时间</string>
+    <string name="book_tv_footer2">原价</string>
+    <string name="book_tv_footer3">折扣</string>
+    <string name="book_tv_footer4">现价</string>
+    <string name="book_tv_footer5">预约</string>
+    <string name="booking_tv_agreedPrice_text">%1$d元</string>
+    <string name="bookingset_at_label">完成</string>
+    <string name="bookingset_err_listPrice">本发型的服务总价格</string>
+    <string name="bookingset_tv_listPrice">原价%1$d元</string>
+    <string name="bookingset_tv_listPrice_input">原价</string>
+    <string name="bookingset_tv_time">营业时间：</string>
+    <string name="chat_input">对%1$s说：</string>
+    <string name="chat_invite_salonConflict">请先退出沙龙：%1$s</string>
+    <string name="chat_join_notAcceptable">申请者不是发型师，或该发型师已经加入某个沙龙！</string>
+    <string name="chat_join_unauthorized">你不是该沙龙的管理员！</string>
+    <string name="chat_tv_arbitrate">%1$s申诉：</string>
+    <string name="chat_tv_book_committed">"时间：%1$s\n价格：%2$s元(原价%3$s元,%4$s)\n已经生成正式预约"</string>
+    <string name="chat_tv_book_committing">"时间：%1$s\n价格：%2$s元(原价%3$s元,%4$s)\n是否接受预约？"</string>
+    <string name="chat_tv_cancel">%1$s取消了预约。</string>
+    <string name="chat_tv_comment">%1$s评价了你的服务，你可以在15天内对评价进行解释。请见预约管理界面。</string>
+    <string name="chat_tv_commit">%1$s同意了你的预约，你可以在服务后的15天内进行评价，或在约定时间前取消预约。请见预约管理界面。</string>
+    <string name="chat_tv_explain">%1$s对你的评价进行了解释或确认，请见评价管理界面。</string>
+    <string name="chat_tv_follow">%1$s关注了你。</string>
+    <string name="chat_tv_invite">邀请你成为“%1$s”的发型师！是否接受？</string>
+    <string name="chat_tv_join">我申请成为“%1$s”的发型师！是否接受？</string>
+    <string name="chat_tv_report">%1$s举报发型存在%2$s的问题。</string>
+    <string name="comment_at_label">确认评价</string>
+    <string name="comment_et_reply_text">回复%1$s:</string>
+    <string name="comment_input_title">评论</string>
+    <string name="comment_tv_content_hint">点此处编辑文本</string>
+    <string name="comment_tv_step1">第一步：展示发型效果</string>
+    <string name="comment_tv_step2">第二步：添加文字评论</string>
+    <string name="comment_tv_step3">第三步：评分</string>
+    <string name="default_user_about">只拥有部分权限。</string>
+    <string name="default_user_name">访客</string>
+    <string name="dialog_book_message">将提交预约，是否确认？</string>
+    <string name="dialog_book_title">预约</string>
+    <string name="dialog_cancelBooking_message">将取消预约，是否确认？</string>
+    <string name="dialog_cancelBooking_title">取消预约</string>
+    <string name="dialog_clearHandledMessageBox_message">将清除已经处理的会话记录，是否确认？</string>
+    <string name="dialog_clearHandledMessageBox_title">清除已处理</string>
+    <string name="dialog_clearHandledMessageBoxes_message">将清除全部已经处理的会话记录，是否确认？</string>
+    <string name="dialog_clearHandledMessageBoxes_title">清除已处理</string>
+    <string name="dialog_clearMessageBox_message">将清除本地会话记录，是否确认？</string>
+    <string name="dialog_clearMessageBox_title">清除</string>
+    <string name="dialog_clearMessageBoxes_message">将清除全部的本地会话记录，是否确认？</string>
+    <string name="dialog_clearMessageBoxes_title">清除全部</string>
+    <string name="dialog_deletePosting_message">将删除该发型，是否确认？</string>
+    <string name="dialog_deletePosting_title">删除</string>
+    <string name="dialog_dismarkPosting_message">将取消收藏该发型，是否确认？</string>
+    <string name="dialog_dismarkPosting_title">取消收藏</string>
+    <string name="dialog_rebuildMessageBox_message">将清除本地会话并重建，是否确认？</string>
+    <string name="dialog_rebuildMessageBox_title">重建会话</string>
+    <string name="dialog_searchSalon_hint">沙龙名称/地址</string>
+    <string name="dialog_searchSalon_title">搜索沙龙</string>
+    <string name="dialog_searchUser_hint">邮箱/用户名/地址</string>
+    <string name="dialog_searchUser_title">搜索用户</string>
+    <string name="dialog_update_message">点击升级找发型师v%1$s!</string>
+    <string name="dialog_update_negative">退出</string>
+    <string name="dialog_update_positive">更新</string>
+    <string name="dialog_update_title">下载完成!</string>
+    <string name="download_link">点击链接加入#找发型师#：http://a.app.qq.com/o/simple.jsp?pkgname=com.mifashow&amp;g_f=992943</string>
+    <string name="err_signInvalid">请输入电子邮箱地址</string>
+    <string name="error_bookByStylist">你是发型师,不能预约</string>
+    <string name="error_bookYourself">不能预约自己</string>
+    <string name="error_followAlready">已关注</string>
+    <string name="error_getRouteError">计算路径失败，请稍侯再试！</string>
+    <string name="error_locationError">定位未成功，请稍侯再试！</string>
+    <string name="error_markAlready">已收藏</string>
+    <string name="error_markYourself">不能收藏自己</string>
+    <string name="error_noImageError">请上传照片</string>
+    <string name="error_searchKeywordError">搜索关键字太短</string>
+    <string name="error_serverError">未成功，请稍侯再试！</string>
+    <string name="error_signExistsError">该电子邮箱已被注册</string>
+    <string name="explain_at_label">确认解释</string>
+    <string name="explain_input_title">解释</string>
+    <string name="explain_tv_explain_text">解释</string>
+    <string name="explain_tv_explanation_hint">点此处编辑文本</string>
+    <string name="info_arbitrateDone">成功提交,等待裁定！</string>
+    <string name="info_bookDone">成功提交，等待确认！</string>
+    <string name="info_changePasswordDone">密码已修改!</string>
+    <string name="info_commentDone">成功提交，等待确认！</string>
+    <string name="info_deleteDone">成功删除！</string>
+    <string name="info_dismarkDone">成功取消收藏！</string>
+    <string name="info_explainDone">成功提交！</string>
+    <string name="info_findPasswordDone">密码已发送到%1$s，请查收！</string>
+    <string name="info_followDone">成功关注！</string>
+    <string name="info_markDone">成功收藏！</string>
+    <string name="info_noBookingSet">暂不提供预约</string>
+    <string name="info_noChat">您说，</string>
+    <string name="info_noComment">暂无服务后评价</string>
+    <string name="info_noMessage">美在不言中</string>
+    <string name="info_null">暂时没有内容</string>
+    <string name="info_postDone">成功提交！防止重复！</string>
+    <string name="info_reportDone">找发型师感谢您的贡献！</string>
+    <string name="info_saveDone">已保存修改！</string>
+    <string name="info_sendDone">成功发送！</string>
+    <string name="info_textLengthLimit">%1$d个字符以内</string>
+    <string name="input_tv_clear">,仍可输入%1$d个字符</string>
+    <string name="login_at">返回</string>
+    <string name="login_bt_findPassword_text">忘记密码?</string>
+    <string name="login_bt_login_text">登录</string>
+    <string name="login_err_length_password">密码不正确</string>
+    <string name="login_err_length_sign">电子邮箱格式不符</string>
+    <string name="login_err_null_password">输入密码</string>
+    <string name="login_err_null_sign">输入电子邮箱</string>
+    <string name="login_err_wrong_password">密码与邮箱不符</string>
+    <string name="login_et_hint_password">密码</string>
+    <string name="login_et_hint_sign">电子邮箱</string>
+    <string name="login_et_imeActionLabel_password">登录</string>
+    <string name="login_pg_title">正在登录…</string>
+    <string name="main_input_title">找发型师管理员</string>
+    <string name="message_title">消息</string>
+    <string name="messagebox_tv_content_arbitrate">%1$s发起申诉。</string>
+    <string name="messagebox_tv_content_book">"预约申请：%1$s\n，价格：%2$s元"</string>
+    <string name="messagebox_tv_content_cancel">%1$s取消了预约。</string>
+    <string name="messagebox_tv_content_comment">%1$s评价了你的服务。</string>
+    <string name="messagebox_tv_content_commit">%1$s同意了你的预约</string>
+    <string name="messagebox_tv_content_explain">%1$s对你的评价进行了解释或确认。</string>
+    <string name="messagebox_tv_content_follow">%1$s关注了你。</string>
+    <string name="messagebox_tv_content_invite">%1$s邀请你加入.</string>
+    <string name="messagebox_tv_content_join">申请加入%1$s。</string>
+    <string name="messagebox_tv_content_report">%1$s举报发型存在%2$s的问题。</string>
+    <string name="messagebox_tv_manager_message">欢迎软件改进建议！</string>
+    <string name="messagebox_tv_manager_username">找发型师管理员</string>
+    <string name="notification_title">新消息(%1$d)</string>
+    <string name="password_at_label">确认并提交</string>
+    <string name="password_et_current_err">密码不正确</string>
+    <string name="password_et_hint_current">现在的密码</string>
+    <string name="password_et_hint_new">新密码</string>
+    <string name="password_et_new_err">请输入新密码</string>
+    <string name="poster_at_label">确认发布</string>
+    <string name="poster_tv_step1_text">第1步：上传本发型的样图（正面图必填 ）</string>
+    <string name="poster_tv_step2_text">第2步：选择本发型的服务类型</string>
+    <string name="poster_tv_step3_text">第3步：选择本发型的长度类型</string>
+    <string name="poster_tv_step4_text">第4步：选择本发型的刘海类型</string>
+    <string name="poster_tv_step5_text">第5步：选择本发型属于曲发或直发</string>
+    <string name="poster_tv_step6_text">第6步：选择本发型适合的性别</string>
+    <string name="poster_tv_step7_text">第7步：选择本发型适合的年龄</string>
+    <string name="poster_tv_step8_text">第8步：选择本发型适合的脸形</string>
+    <string name="profileEditor_tv_faceShape">脸型</string>
+    <string name="profileEditor_tv_hair">发型</string>
+    <string name="profileEditor_tv_userName_text">用户名</string>
+    <string name="profileEditor_tv_userType_text">用户类别</string>
+    <string name="profile_alert_phone_content">拨打电话%1$s?</string>
+    <string name="profile_alert_phone_title">电话联系</string>
+    <string name="profile_at_label">个人档案</string>
+    <string name="profile_bt_booking">"%1$d\n预约"</string>
+    <string name="profile_bt_comment">"%1$d\n评价"</string>
+    <string name="profile_bt_follow">关注</string>
+    <string name="profile_bt_follower">"%1$d\n粉丝"</string>
+    <string name="profile_bt_following">"%1$d\n关注"</string>
+    <string name="profile_bt_login">登录</string>
+    <string name="profile_bt_marking">"%1$d\n收藏"</string>
+    <string name="profile_bt_message">私信</string>
+    <string name="profile_bt_post">上传发型</string>
+    <string name="profile_bt_posting">"%1$d\n发型"</string>
+    <string name="profile_bt_salon">沙龙</string>
+    <string name="profile_bt_set">设置</string>
+    <string name="profile_bt_signup">注册</string>
+    <string name="profile_dl_figure_title">更换头像</string>
+    <string name="profile_dl_shop_title">更换店面图</string>
+    <string name="profile_hint_address">长按此处获取位置</string>
+    <string name="profile_tv_about_hint">长按此处编辑简介</string>
+    <string name="profile_tv_about_text">简介</string>
+    <string name="profile_tv_address_input">店铺详细地址（请在店操作）</string>
+    <string name="profile_tv_levelTask_text">%1$d级任务：%2$s</string>
+    <string name="profile_tv_level_text">%1$d级</string>
+    <string name="profile_tv_rating">(%1$d星评价)</string>
+    <string name="register_alert_back_content">要放弃注册？</string>
+    <string name="register_alert_back_title">返回</string>
+    <string name="register_at">返回</string>
+    <string name="register_bt_figure">头像</string>
+    <string name="register_bt_finish_text">完成注册</string>
+    <string name="register_bt_sex_female_text">女</string>
+    <string name="register_bt_sex_male_text">男</string>
+    <string name="register_bt_text_chosedFace">你的脸型</string>
+    <string name="register_bt_text_circleface">圆形脸型</string>
+    <string name="register_bt_text_guoface">国字脸型</string>
+    <string name="register_bt_text_jiaface">甲字脸型</string>
+    <string name="register_bt_text_shenface">申字脸型</string>
+    <string name="register_bt_text_squareface">方形脸型</string>
+    <string name="register_bt_text_standardface">标准脸型</string>
+    <string name="register_bt_text_youface">由字脸型</string>
+    <string name="register_err_invalid_birthday">请选择真实出生日期</string>
+    <string name="register_err_invalid_height">请输入真实的身高</string>
+    <string name="register_err_invalid_weight">请输入真实的体重</string>
+    <string name="register_err_null_birthday">请选择出生日期</string>
+    <string name="register_err_null_figure">请上传头像！</string>
+    <string name="register_err_null_height">请输入身高</string>
+    <string name="register_err_null_password">请输入密码</string>
+    <string name="register_err_null_userName">请输入用户名</string>
+    <string name="register_err_null_weight">请输入体重</string>
+    <string name="register_et_birthday_hint">选择日期</string>
+    <string name="register_et_height_hint">如165</string>
+    <string name="register_et_password_hint">密码</string>
+    <string name="register_et_sign_hint">电子邮箱地址</string>
+    <string name="register_et_userName_hint">用户名</string>
+    <string name="register_et_weight_hint">如50</string>
+    <string name="register_pg_title">注册</string>
+    <string name="register_pt_faceshape">1.你的脸型</string>
+    <string name="register_pt_figure">3.基本信息</string>
+    <string name="register_pt_hair">2.现在的发型</string>
+    <string name="register_pt_username">4.完成注册</string>
+    <string name="register_to_exit">再按一次放弃注册</string>
+    <string name="register_tv_bangType_text">刘海类型</string>
+    <string name="register_tv_birthday_text">生日</string>
+    <string name="register_tv_curlyType_text">是否卷发</string>
+    <string name="register_tv_figure_text">头像</string>
+    <string name="register_tv_hairLength_text">发型长度</string>
+    <string name="register_tv_height_text">身高</string>
+    <string name="register_tv_height_unit_text">cm</string>
+    <string name="register_tv_sex_text">性别</string>
+    <string name="register_tv_sign_text">登录ID</string>
+    <string name="register_tv_weight_text">体重</string>
+    <string name="register_tv_weight_unit_text">kg</string>
+    <string name="salon_alert_back_content">要放弃编辑？</string>
+    <string name="salon_alert_back_title">返迴</string>
+    <string name="salon_alert_discharge_content">您要移交本沙龙的管理权吗?</string>
+    <string name="salon_alert_discharge_title">移交管理</string>
+    <string name="salon_alert_dissolve_content">您要解散本沙龙吗?</string>
+    <string name="salon_alert_dissolve_title">解散沙龙!!</string>
+    <string name="salon_alert_withdraw_content">您要退出本沙龙吗?</string>
+    <string name="salon_alert_withdraw_title">退出沙龙</string>
+    <string name="salon_at">返回</string>
+    <string name="salon_bt_attach">图片</string>
+    <string name="salon_bt_invite_hint">店员的注册邮箱\'a@b.com\'</string>
+    <string name="salon_invite_notFound">未找到发型师：%1$s</string>
+    <string name="salon_invite_sent">已发出邀请</string>
+    <string name="salon_join_sent">已提交加入申请</string>
+    <string name="salon_to_exit">再按一次放弃编辑</string>
+    <string name="salon_tv_address">地址</string>
+    <string name="salon_tv_area">面积</string>
+    <string name="salon_tv_basic">沙龙信息</string>
+    <string name="salon_tv_braid">编发</string>
+    <string name="salon_tv_call">电话</string>
+    <string name="salon_tv_color">染发</string>
+    <string name="salon_tv_consumption">平均消费</string>
+    <string name="salon_tv_cut">洗剪吹</string>
+    <string name="salon_tv_discount">优惠活动</string>
+    <string name="salon_tv_edit_hint">编辑</string>
+    <string name="salon_tv_environment">环境</string>
+    <string name="salon_tv_invite">邀请</string>
+    <string name="salon_tv_join">加入</string>
+    <string name="salon_tv_name">名称</string>
+    <string name="salon_tv_permanent">烫发</string>
+    <string name="salon_tv_recruitment">招聘信息</string>
+    <string name="salon_tv_stylist">发型师</string>
+    <string name="salon_tv_treatment">护理</string>
+    <string name="salon_tv_withdraw">退出</string>
+    <string name="salons_tv_price">%1$d</string>
+    <string name="salons_tv_price2">元起</string>
+    <string name="salons_tv_stylists">%1$d位发型师在线</string>
+    <string name="share_subject">找发型师</string>
+    <string name="share_text">#找发型师#%1$s,适合:%2$s,扫描二维码或点击链接加入找发型师：http://a.app.qq.com/o/simple.jsp?pkgname=com.mifashow&amp;g_f=992943</string>
+    <string name="share_title">分享</string>
+    <string name="show_at_label">确认发布</string>
+    <string name="show_tv_hair">您的发型</string>
+    <string name="show_tv_notic_1">·必须包含正面图</string>
+    <string name="show_tv_notic_2">·必须是本人的发型</string>
+    <string name="status_address_null">请填写详细地址</string>
+    <string name="status_end">结束</string>
+    <string name="status_loading">正在加载…</string>
+    <string name="status_location_null">请点击此处获取位置</string>
+    <string name="status_noLocation">未定位</string>
+    <string name="status_sending">正在发送，请稍侯…</string>
+    <string name="time_hour">%1$d小时前</string>
+    <string name="time_min">%1$d分钟前</string>
+    <string name="time_now">刚刚</string>
+    <string name="time_yesterday">昨天</string>
+    <string name="title_activity_main">找发型师</string>
+    <string name="view_bt_booking_text">预约</string>
+    <string name="view_bt_comment_text">评论</string>
+    <string name="view_bt_favor_text">收藏</string>
+    <string name="view_bt_handle_text">操作</string>
+    <string name="viewer_at_label">浏览</string>
+    <string name="viewer_tv_ageType">适合年龄：%1$s</string>
+    <string name="viewer_tv_faceShape">适合脸型：%1$s</string>
+    <string name="viewer_tv_hairType">发型类型：%1$s</string>
+    <string name="viewer_tv_serviceType">包含服务：%1$s</string>
+    <string name="welcome_bt_login">登录</string>
+    <string name="welcome_bt_register">注册</string>
+    <string name="welcome_to_text_exit">再按一次退出程序</string>
+    <string name="welcome_tv">找发型师，找最美自己</string>
+</resources>
